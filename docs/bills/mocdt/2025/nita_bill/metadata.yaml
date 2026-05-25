@@ -1,0 +1,9 @@
+title: "National Information Technology Authority Bill, 2025"
+ministry: "Ministry of Communications, Digital Technology and Innovations"
+year: 2025
+status: "source added"
+source_file: "raw.pdf"
+parsed_file: "parsed.json"
+analysis_file: "analysis.md"
+amends: []
+notes: "Launch artefact for ClauseGuard v1."

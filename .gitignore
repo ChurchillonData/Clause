@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+data/vectorstores/chroma/*
+!data/vectorstores/chroma/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/labels/*
+!data/labels/.gitkeep
+notebooks/.ipynb_checkpoints/
