@@ -10,20 +10,19 @@ The project is not a legal opinion engine. It does not predict parliamentary out
 
 ```text
 .
-├── CLAUDE.md                AI assistant rules and project constraints
-├── DECISIONS.md             Architectural decision log
-├── SKILLS.md                Capability map for the portfolio and repo
-├── docs/                    Methodology, legal references, bills, reports, specs
-├── src/                     Future Python package
-├── tests/                   Tests aligned to package boundaries
-├── scripts/                 CLI and maintenance entry points
-├── frontend/                Future human review interface
-├── data/                    Local generated data and vector stores
-├── notebooks/               Exploration only
-└── logs/                    Local mirror run logs
+|-- README.md                Project entry point
+|-- pyproject.toml           Python project metadata
+|-- docs/                    Governance, methodology, sources, references, bills, reports
+|-- src/                     Future Python package
+|-- tests/                   Tests aligned to package boundaries
+|-- scripts/                 CLI and maintenance entry points
+|-- frontend/                Future human review interface
+|-- data/                    Local generated data and vector stores
+|-- notebooks/               Exploration only
+`-- logs/                    Local mirror run logs
 ```
 
-The root stays small on purpose. Source documents and specs live under `docs/project/`. Legal source material lives under `docs/reference/`. Bills live under `docs/bills/`.
+The root stays small on purpose. Living governance Markdown lives under `docs/governance/`. Source documents and specs live under `docs/project/sources/`. Legal source material lives under `docs/reference/`. Bills live under `docs/bills/`.
 
 ## Current Build Target
 
@@ -52,7 +51,8 @@ No score appears without a bill excerpt and a constitutional excerpt. If retriev
 
 ## Key Paths
 
-- `docs/project/` stores the playbook and build specs.
+- `docs/governance/` stores assistant rules, decisions, and capability notes.
+- `docs/project/sources/` stores the playbook and source specs.
 - `docs/methodology/` stores taxonomy, scoring, labelling, and evidence rules.
 - `docs/reference/constitution_1992/` stores the Constitution reference corpus.
 - `docs/reference/ghana_acts/` stores mirrored Acts of Parliament.

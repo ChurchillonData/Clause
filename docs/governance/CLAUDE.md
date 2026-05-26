@@ -17,7 +17,7 @@ It surfaces evidence. The human decides.
 ## Hard Rules
 
 - Read `docs/methodology/01_taxonomy.md` before classifying anything.
-- Read `DECISIONS.md` before suggesting an architectural change.
+- Read `docs/governance/DECISIONS.md` before suggesting an architectural change.
 - Cite clause IDs as primary citations.
 - Use page numbers only as fallback.
 - Validate every constitutional article against `docs/reference/constitution_1992/articles/`.

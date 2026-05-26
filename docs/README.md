@@ -6,16 +6,18 @@ The `docs` folder is the methodological and legal backbone of ClauseGuard.
 
 ```text
 docs/
-├── project/                 Playbook, source PDFs, and build specs
-├── methodology/             Taxonomy, scoring, labelling, and evidence rules
-├── reference/               Constitution and Acts of Parliament
-├── bills/                   Bill corpus by ministry, year, and bill
-└── reports/                 Public outputs
+|-- governance/              Living project rules, decisions, and capability map
+|-- project/                 Original source documents and build specs
+|-- methodology/             Taxonomy, scoring, labelling, and evidence rules
+|-- reference/               Constitution and Acts of Parliament
+|-- bills/                   Bill corpus by ministry, year, and bill
+`-- reports/                 Public outputs
 ```
 
 ## Rules
 
-- Keep source specs in `docs/project/`.
+- Keep living project guidance in `docs/governance/`.
+- Keep source specs in `docs/project/sources/`.
 - Keep the Constitution and Acts in `docs/reference/`.
 - Keep bills under `docs/bills/<ministry>/<year>/<bill>/`.
 - Keep public artefacts in `docs/reports/`.
