@@ -1,13 +1,17 @@
 # Retrieval
 
-Future responsibility.
-
 - Index the Constitution once.
 - Index bills at clause level.
 - Retrieve constitutional articles and related clauses.
 
-Planned files from the playbook.
+Current modules.
 
-- `embed_constitution.py`
-- `embed_bill.py`
-- `retrieve.py`
+- `schemas.py`
+- `tokenizer.py`
+- `chunkers.py`
+- `lexical_index.py`
+- `builders.py`
+- `index_store.py`
+- `smoke.py`
+
+This layer starts with deterministic lexical retrieval. Vector storage comes later, after the evidence contract is stable.

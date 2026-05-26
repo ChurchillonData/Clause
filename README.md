@@ -25,9 +25,9 @@ The root stays small on purpose. Living governance Markdown lives under `docs/go
 
 ## Current Build Target
 
-Step 3 is the active build target.
+Step 4 is the active build target.
 
-The SPEC 01 reference foundation is implemented. The current layer parses bill PDFs into clause-level JSON.
+The SPEC 01 reference foundation and Step 3 bill parser are implemented. The current layer indexes parsed bill and reference text for deterministic retrieval.
 
 It does not include risk classification, constitutional checks, API, frontend, or LLM calls.
 
