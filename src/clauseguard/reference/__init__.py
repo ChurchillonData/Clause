@@ -3,10 +3,12 @@
 from clauseguard.reference.parser_html import parse_html_document, parse_html_file
 from clauseguard.reference.parser_xml import parse_xml_document, parse_xml_file
 from clauseguard.reference.registry import load_registry, write_registry
+from clauseguard.reference.resolver import ReferenceResolver
 from clauseguard.reference.schemas import LegalDocument, TextNode
 
 __all__ = [
     "LegalDocument",
+    "ReferenceResolver",
     "TextNode",
     "parse_html_document",
     "parse_html_file",

@@ -1,0 +1,48 @@
+{
+  "doc_type": "act",
+  "act_number": 769,
+  "year": 2008,
+  "title": "National Communications Authority Act, 2008",
+  "short_title": "NCA Act",
+  "long_title": null,
+  "date_assented": null,
+  "date_commenced": null,
+  "last_amended": null,
+  "status": "in_force",
+  "source_url": "https://ghalii.org/akn/gh/act/2008/769",
+  "content_hash": "hash-769",
+  "fetched_at": "2026-05-26T00:00:00Z",
+  "nodes": {
+    "s_12": {
+      "id": "s_12",
+      "parent_id": null,
+      "level": "section",
+      "number": "12",
+      "heading": "Functions of the Authority",
+      "text": "The Authority may issue directives.",
+      "children_ids": ["s_12_3"],
+      "references": []
+    },
+    "s_12_3": {
+      "id": "s_12_3",
+      "parent_id": "s_12",
+      "level": "subsection",
+      "number": "3",
+      "heading": null,
+      "text": "The Authority may require information from operators.",
+      "children_ids": ["s_12_3_b"],
+      "references": []
+    },
+    "s_12_3_b": {
+      "id": "s_12_3_b",
+      "parent_id": "s_12_3",
+      "level": "paragraph",
+      "number": "b",
+      "heading": null,
+      "text": "The operator shall comply with the request.",
+      "children_ids": [],
+      "references": []
+    }
+  },
+  "root_node_ids": ["s_12"]
+}

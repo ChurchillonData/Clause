@@ -1,0 +1,28 @@
+{
+  "doc_type": "act",
+  "act_number": 843,
+  "year": 2012,
+  "title": "Data Protection Act, 2012",
+  "short_title": "DPA",
+  "long_title": null,
+  "date_assented": null,
+  "date_commenced": null,
+  "last_amended": null,
+  "status": "in_force",
+  "source_url": "https://ghalii.org/akn/gh/act/2012/843",
+  "content_hash": "hash-843",
+  "fetched_at": "2026-05-26T00:00:00Z",
+  "nodes": {
+    "s_12_3_b": {
+      "id": "s_12_3_b",
+      "parent_id": null,
+      "level": "paragraph",
+      "number": "b",
+      "heading": null,
+      "text": "A data controller shall protect personal data.",
+      "children_ids": [],
+      "references": []
+    }
+  },
+  "root_node_ids": ["s_12_3_b"]
+}

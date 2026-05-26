@@ -1,0 +1,67 @@
+[
+  {
+    "doc_type": "constitution",
+    "act_number": null,
+    "year": 1992,
+    "title": "Constitution of the Republic of Ghana, 1992",
+    "short_title": "Constitution",
+    "status": "in_force",
+    "file_path": "parsed/constitution.json",
+    "content_hash": "hash-constitution",
+    "fetched_at": "2026-05-26T00:00:00Z",
+    "parse_failed": false,
+    "parse_error": null
+  },
+  {
+    "doc_type": "act",
+    "act_number": 769,
+    "year": 2008,
+    "title": "National Communications Authority Act, 2008",
+    "short_title": "NCA Act",
+    "status": "in_force",
+    "file_path": "parsed/act_0769.json",
+    "content_hash": "hash-769",
+    "fetched_at": "2026-05-26T00:00:00Z",
+    "parse_failed": false,
+    "parse_error": null
+  },
+  {
+    "doc_type": "act",
+    "act_number": 843,
+    "year": 2012,
+    "title": "Data Protection Act, 2012",
+    "short_title": "DPA",
+    "status": "in_force",
+    "file_path": "parsed/act_0843.json",
+    "content_hash": "hash-843",
+    "fetched_at": "2026-05-26T00:00:00Z",
+    "parse_failed": false,
+    "parse_error": null
+  },
+  {
+    "doc_type": "act",
+    "act_number": 1038,
+    "year": 2020,
+    "title": "Cybersecurity Act, 2020",
+    "short_title": "Cybersecurity Act",
+    "status": "in_force",
+    "file_path": "parsed/act_1038.json",
+    "content_hash": "hash-1038",
+    "fetched_at": "2026-05-26T00:00:00Z",
+    "parse_failed": false,
+    "parse_error": null
+  },
+  {
+    "doc_type": "act",
+    "act_number": 769,
+    "year": 1965,
+    "title": "Historic Communications Act, 1965",
+    "short_title": null,
+    "status": "in_force",
+    "file_path": "parsed/act_0769_1965.json",
+    "content_hash": "hash-769-1965",
+    "fetched_at": "2026-05-26T00:00:00Z",
+    "parse_failed": false,
+    "parse_error": null
+  }
+]

@@ -69,3 +69,39 @@ class RegistryEntry(BaseModel):
     fetched_at: datetime
     parse_failed: bool = False
     parse_error: str | None = None
+
+
+class Citation(BaseModel):
+    """A structured legal citation parsed from text."""
+
+    raw: str
+    act_number: int | None = None
+    year: int | None = None
+    title: str | None = None
+    section_ref: str | None = None
+    article_ref: str | None = None
+    qualifier: str | None = None
+    is_constitution: bool = False
+
+
+class ResolvedReference(BaseModel):
+    """A citation matched to a local document and optional text node."""
+
+    citation: str
+    document: RegistryEntry
+    node: TextNode | None = None
+
+
+class AmbiguousMatch(BaseModel):
+    """A citation that matched more than one local document."""
+
+    citation: str
+    matches: list[RegistryEntry]
+
+
+class ResolutionReport(BaseModel):
+    """Bulk reference resolution result."""
+
+    resolved: list[ResolvedReference] = Field(default_factory=list)
+    unresolved: list[str] = Field(default_factory=list)
+    ambiguous: list[AmbiguousMatch] = Field(default_factory=list)

@@ -1,0 +1,28 @@
+{
+  "doc_type": "act",
+  "act_number": 1038,
+  "year": 2020,
+  "title": "Cybersecurity Act, 2020",
+  "short_title": "Cybersecurity Act",
+  "long_title": null,
+  "date_assented": null,
+  "date_commenced": null,
+  "last_amended": null,
+  "status": "in_force",
+  "source_url": "https://ghalii.org/akn/gh/act/2020/1038",
+  "content_hash": "hash-1038",
+  "fetched_at": "2026-05-26T00:00:00Z",
+  "nodes": {
+    "s_1": {
+      "id": "s_1",
+      "parent_id": null,
+      "level": "section",
+      "number": "1",
+      "heading": null,
+      "text": "This Act applies to cybersecurity matters.",
+      "children_ids": [],
+      "references": []
+    }
+  },
+  "root_node_ids": ["s_1"]
+}

@@ -1,0 +1,38 @@
+{
+  "doc_type": "constitution",
+  "act_number": null,
+  "year": 1992,
+  "title": "Constitution of the Republic of Ghana, 1992",
+  "short_title": "Constitution",
+  "long_title": null,
+  "date_assented": null,
+  "date_commenced": null,
+  "last_amended": null,
+  "status": "in_force",
+  "source_url": "https://ghalii.org/akn/gh/act/1992/constitution",
+  "content_hash": "hash-constitution",
+  "fetched_at": "2026-05-26T00:00:00Z",
+  "nodes": {
+    "art_19": {
+      "id": "art_19",
+      "parent_id": null,
+      "level": "article",
+      "number": "19",
+      "heading": "Fair trial",
+      "text": "A person charged with a criminal offence shall be given a fair hearing.",
+      "children_ids": ["art_19_2_d"],
+      "references": []
+    },
+    "art_19_2_d": {
+      "id": "art_19_2_d",
+      "parent_id": "art_19",
+      "level": "paragraph",
+      "number": "d",
+      "heading": null,
+      "text": "The person shall be permitted to defend themself before the court.",
+      "children_ids": [],
+      "references": []
+    }
+  },
+  "root_node_ids": ["art_19"]
+}
