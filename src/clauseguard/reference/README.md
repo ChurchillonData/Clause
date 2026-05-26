@@ -17,16 +17,16 @@ Current modules.
 
 - `schemas.py`
 - `parser_xml.py`
+- `parser_html.py`
 
 Planned modules.
 
 - `mirror.py`
 - `ghalii_client.py`
-- `parser_html.py`
 - `resolver.py`
 - `registry.py`
 - `logging.py`
 
 The spec names `src/lexlens/reference/`. This repo uses `src/clauseguard/`, so the package path is `src/clauseguard/reference/`.
 
-The first implemented slice defines the shared legal document schemas and parses Akoma Ntoso XML into those schemas.
+The first implemented slices define the shared legal document schemas and parse XML or fallback HTML into those schemas.
