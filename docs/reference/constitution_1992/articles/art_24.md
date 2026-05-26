@@ -1,3 +1,6 @@
 # Article 24
 
-The National House of Chiefs, the Regional Houses of Chiefs, the traditional councils and all Judicial Committees of those bodies in existence immediately before the coning into force of this Constitution shall, on the coming into force of this Constitution, continue in existence subject to this Constitution.
+  Every person has the right to work under satisfactory, safe and healthy conditions, and shall receive equal pay for equal work without distinction of any kind.
+  Every worker shall be assured of rest, leisure and reasonable limitation of working hours and periods of holidays with pay, as well as remuneration for public holidays.
+  Every worker has a right to form or join a trade union of his choice for the promotion and protection of his economic and social interests.
+  Restrictions shall not be placed on the exercise of the right conferred by clause (3) of this article except restrictions prescribed by law and reasonably necessary in the interest of national security or public order or for the protection of the rights and freedoms of others.

@@ -1,4 +1,7 @@
 # Article 22
 
-  The register of voters for public election and referenda in existence immediately before the coming into force of this Constitution shall, on the coming into force of this Constitution, have effect as if it was compiled under this Constitution.
-  Subject to this Constitution, the Interim National Electoral Commission in existence immediately before the coming into force of this Constitution shall, on the coming into force of this Constitution and until the President appoints the members of the Electoral Commission under section 9 of this Schedule, exercise the functions and powers provided for the Electoral Commission in this Constitution.
+  A spouse shall not be deprived of a reasonable provision out of the estate of a spouse whether or not the spouse died having made a will.
+  Parliament shall, as soon as practicable after the coming into force of this Constitution, enact legislation regulating the property rights of spouses.
+  With a view to achieving the full realisation of the rights referred to in clause (2) of this article -
+    spouses shall have equal access to property jointly acquired during marriage;
+    assets which are jointly acquired during marriage shall be distributed equitably between the spouses upon dissolution of the marriage.

@@ -41,7 +41,10 @@ def search_index(
     for term in query_terms:
         add_term_scores(index, term, scores, matches)
     chunks = {chunk.chunk_id: chunk for chunk in index.chunks}
-    results = [build_result(chunks[key], score, matches[key]) for key, score in scores.items()]
+    results = [
+        build_result(chunks[key], score + reference_boost(query_terms, chunks[key]), matches[key])
+        for key, score in scores.items()
+    ]
     filtered = [item for item in results if source_types is None or item.chunk.source_type in source_types]
     return sorted(filtered, key=lambda item: (-item.score, item.chunk.chunk_id))[:limit]
 
@@ -73,6 +76,31 @@ def inverse_document_frequency(total_chunks: int, matching_chunks: int) -> float
     """Return a smoothed inverse document frequency."""
 
     return log((1 + total_chunks) / (1 + matching_chunks)) + 1
+
+
+def reference_boost(query_terms: list[str], chunk: RetrievalChunk) -> float:
+    """Boost chunks whose scoped node ID is explicitly named in the query."""
+
+    boosts = {
+        "article": "art",
+        "clause": "cl",
+        "section": "s",
+    }
+    query_set = set(query_terms)
+    number_terms = [term for term in query_terms if term.isdigit()]
+    for label, prefix in boosts.items():
+        if label not in query_set:
+            continue
+        if any(node_id_matches(chunk.node_id, prefix, number) for number in number_terms):
+            return 25.0
+    return 0.0
+
+
+def node_id_matches(node_id: str, prefix: str, number: str) -> bool:
+    """Return whether a node ID matches a referenced legal component."""
+
+    expected = f"{prefix}_{number}"
+    return node_id == expected or node_id.startswith(f"{expected}_")
 
 
 def chunk_text(chunk: RetrievalChunk) -> str:

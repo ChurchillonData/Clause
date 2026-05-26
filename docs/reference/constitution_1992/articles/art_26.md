@@ -1,3 +1,4 @@
 # Article 26
 
-Except where the context otherwise requires and subject to the other provisions of this Part, in all enactments in existence immediately before the coming into force of this Constitution - Cabinet; Defense Council where the reference relates to the Cabinet the reference shall be a reference to the Secretary to the Cabinet, shall be a reference to the Head of the Civil Service; ministerial rank, there shall be substituted a reference to a Minister; Defense Council responsible for any subject or department of State there shall be substituted a reference to the Minister responsible for that subject or department of State.
+  Every person is entitled to enjoy, practice, profess, maintain and promote any culture, language, tradition or religion subject to the provisions of this Constitution.
+  All customary practices which dehumanise or are injurious to the physical and mental well being of a person are prohibited.

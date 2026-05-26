@@ -1,4 +1,3 @@
 # Article 23
 
-  Until Parliament otherwise provides by law, existing laws regulating the operation of District Assemblies and other local authorities shall continue to regulate their operations.
-  Until Parliament establishes the District Assemblies Common Fund in accordance with article 252 of this Constitution, all taxes and other moneys collected exclusively for District Assemblies shall continue to be collected exclusively for District Assemblies under the enactments under which they were collected.
+Administrative bodies and administrative officials shall act fairly and reasonably and comply with the requirements imposed on them by law and persons aggrieved by the exercise of such acts and decisions shall have the right to seek redress before a court or other tribunal.

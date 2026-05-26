@@ -1,4 +1,4 @@
 # Article 1
 
-  Notwithstanding anything in this constitution, the person duly elected President of Ghana under the law in force immediately before the coming into force of this Constitution shall be taken to have been duly elected for the purposes of this Constitution.
-  The President referred to in subsection (1) of this section shall assume office as President on the date of the coming into force of this Constitution notwithstanding anything in this Constitution. PART II - FIRST PARLIAMENT
+  The Sovereignty of Ghana resides in the people of Ghana in whose name and for whose welfare the powers of government are to be exercised in the manner and within the limits laid down in this Constitution.
+  The Constitution shall be the supreme law of Ghana and any other law found to be inconsistent with any provision of this Constitution should, to the extent of the inconsistency, be void.

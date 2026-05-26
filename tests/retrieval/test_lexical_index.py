@@ -56,3 +56,19 @@ def test_search_index_filters_by_source_type() -> None:
     results = search_index(index, "rights", source_types={"constitution"})
 
     assert [item.chunk.source_type for item in results] == ["constitution"]
+
+
+def test_search_index_boosts_explicit_article_reference() -> None:
+    """Rank explicitly referenced article nodes above broad definition matches."""
+
+    index = build_lexical_index(
+        "test",
+        [
+            chunk("art_295_1", "article means a provision of the Constitution", "constitution"),
+            chunk("art_19_1", "fair hearing by a court", "constitution"),
+        ],
+    )
+
+    results = search_index(index, "fair hearing article 19")
+
+    assert results[0].chunk.chunk_id == "art_19_1"

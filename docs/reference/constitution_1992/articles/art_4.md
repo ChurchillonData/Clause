@@ -1,4 +1,4 @@
 # Article 4
 
-  A Justice of the Supreme Court, the Court of Appeal or the High Court holding office immediately before the coming into force of this Constitution, shall continue to hold office as if appointed to that office under this Constitution.
-  Any person to whom this section applies shall, on the coming into force of this Constitution, take and subscribe the oath of allegiance and the judicial oath set out in the Second Schedule to this Constitution.
+  The sovereign State of Ghana is a unitary republic consisting of those territories comprised in the regions which immediately before the coming into force of this Constitution, existed in Ghana, including the territorial sea and the air space.
+  . parliament may by law provide for the delimitation of the territorial sea, the contiguous zone, the exclusive economic zone and the continental shelf of Ghana.

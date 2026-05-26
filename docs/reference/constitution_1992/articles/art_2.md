@@ -1,7 +1,11 @@
 # Article 2
 
-  Notwithstanding anything in this Constitution, the persons duly elected as members of Parliament under the law in force immediately before the coming into force of this Constitution, shall be taken to have been duly elected members of Parliament for the purposes of this Constitution.
-  The person who was Clerk of the Consultative Assembly or such other public officer as the Provisional National Defense Council may designate, shall, notwithstanding anything to the contrary in this Constitution, act as Clerk to Parliament until a Clerk is appointed under article 124 of this Constitution.
-  The person who was Clerk of the Consultative Assembly established under the Consultative Assembly Law 1991 (PNDCL.253) or other person designated under subsection (2) of this section shall, not later than seven days after the coming into force of this Constitution, summon a meeting of parliament for the election of the Speaker, the taking of oaths by members of Parliament, the swearing in of the President and the approval of Ministers of State and Deputy Ministers for appointment under this Constitution.
-  For the avoidance of doubt, any notice given before the coming into force of this Constitution summoning Parliament to meet for the purposes of subsection (3) of this section, shall be deemed to be a valid notice for all purposes.
-  The Standing Orders of the Parliament under the constitution of the Republic of Ghana, 1979 shall apply to the proceedings of Parliament until Parliament otherwise determines under article 110 of this Constitution. PART III - THE JUDICIARY
+  A person who alleges that -
+    an enactment or anything contained in or done under the authority of that or any other enactment; or
+    any act or omission of any person; is inconsistent with, or is in contravention of a provision of this Constitution, may bring an action in the Supreme Court for a declaration to that effect.
+  The Supreme Court shall, for the purposes of a declaration under clause (1) of this article, make such orders and give such directions as it may consider appropriate for giving effect, or enabling effect to be given, to the declaration so made.
+  Any person or group of persons of whom an order or direction is addressed under clause (2) of this article by the Supreme Court, shall duly obey and carry out the terms of the order or direction.
+  Failure to obey or carry out the terms of an order or direction made or given under clause (2) of this article constitutes a high crime under this Constitution and shall, in the case of the President or the Vice-President, constitute a ground for removal from office under this Constitution.
+  A person convicted of a high crime under clause (4) of this article shall
+    be liable to imprisonment not exceeding ten years without the option of a fine; and
+    not be eligible for election, or for appointment, to any public office for ten years beginning with the date of the expiration of the term of imprisonment.

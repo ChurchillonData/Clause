@@ -20,9 +20,16 @@ def parse_constitution_nodes(text: str) -> tuple[dict[str, TextNode], list[str]]
     current_article: str | None = None
     current_subclause: str | None = None
     current_node: str | None = None
-    for line in normalised_lines(text):
-        current_article, current_subclause, current_node = consume_line(
-            nodes, root_ids, current_article, current_subclause, current_node, line
+    last_article_number = 0
+    for line in body_lines(text):
+        current_article, current_subclause, current_node, last_article_number = consume_line(
+            nodes,
+            root_ids,
+            current_article,
+            current_subclause,
+            current_node,
+            last_article_number,
+            line,
         )
     return nodes, root_ids
 
@@ -33,20 +40,30 @@ def consume_line(
     current_article: str | None,
     current_subclause: str | None,
     current_node: str | None,
+    last_article_number: int,
     line: str,
-) -> tuple[str | None, str | None, str | None]:
+) -> tuple[str | None, str | None, str | None, int]:
     """Consume one Constitution line."""
 
-    if match := ARTICLE_RE.match(line):
+    if (match := ARTICLE_RE.match(line)) and is_forward_article(match, last_article_number):
+        article_number = int(match.group("number"))
         node_id = f"art_{match.group('number')}"
         add_node(nodes, root_ids, node_id, None, "article", match.group("number"), match.group("text"))
-        return node_id, None, node_id
+        return node_id, None, node_id, article_number
     if match := SUBCLAUSE_RE.match(line):
-        return consume_subclause(nodes, root_ids, current_article, match)
+        article, subclause, node = consume_subclause(nodes, root_ids, current_article, match)
+        return article, subclause, node, last_article_number
     if match := PARAGRAPH_RE.match(line):
-        return consume_paragraph(nodes, root_ids, current_article, current_subclause, match)
+        article, subclause, node = consume_paragraph(nodes, root_ids, current_article, current_subclause, match)
+        return article, subclause, node, last_article_number
     append_text(nodes, current_node, line)
-    return current_article, current_subclause, current_node
+    return current_article, current_subclause, current_node, last_article_number
+
+
+def is_forward_article(match: Match[str], last_article_number: int) -> bool:
+    """Return whether a numbered line advances the article sequence."""
+
+    return int(match.group("number")) > last_article_number
 
 
 def consume_subclause(
@@ -111,6 +128,23 @@ def normalised_lines(text: str) -> list[str]:
     """Return non-empty normalised text lines."""
 
     return [" ".join(line.split()) for line in text.splitlines() if " ".join(line.split())]
+
+
+def body_lines(text: str) -> list[str]:
+    """Return Constitution body lines before schedules begin."""
+
+    lines: list[str] = []
+    for line in normalised_lines(text):
+        if is_schedule_start(line):
+            break
+        lines.append(line)
+    return lines
+
+
+def is_schedule_start(text: str) -> bool:
+    """Return whether a line starts the Constitution schedules."""
+
+    return text.casefold() in {"first schedule", "first schedule transitional provisions"}
 
 
 def looks_like_noise(text: str) -> bool:

@@ -11,7 +11,7 @@
   "status": "in_force",
   "source_url": "docs\\reference\\constitution_1992\\raw.pdf",
   "content_hash": "57abee95f1cfdc279f247e4ac84727a29686769b8a4d89e5d46452b6d37d3b85",
-  "fetched_at": "2026-05-26T12:23:54.299781Z",
+  "fetched_at": "2026-05-26T18:35:09.440550Z",
   "nodes": {
     "art_1": {
       "id": "art_1",
@@ -32,7 +32,7 @@
       "level": "subsection",
       "number": "1",
       "heading": null,
-      "text": "Notwithstanding anything in this constitution, the person duly elected President of Ghana under the law in force immediately before the coming into force of this Constitution shall be taken to have been duly elected for the purposes of this Constitution.",
+      "text": "The Sovereignty of Ghana resides in the people of Ghana in whose name and for whose welfare the powers of government are to be exercised in the manner and within the limits laid down in this Constitution.",
       "children_ids": [],
       "references": []
     },
@@ -42,7 +42,7 @@
       "level": "subsection",
       "number": "2",
       "heading": null,
-      "text": "The President referred to in subsection (1) of this section shall assume office as President on the date of the coming into force of this Constitution notwithstanding anything in this Constitution. PART II - FIRST PARLIAMENT",
+      "text": "The Constitution shall be the supreme law of Ghana and any other law found to be inconsistent with any provision of this Constitution should, to the extent of the inconsistency, be void.",
       "children_ids": [],
       "references": []
     },
@@ -68,8 +68,11 @@
       "level": "subsection",
       "number": "1",
       "heading": null,
-      "text": "Notwithstanding anything in this Constitution, the persons duly elected as members of Parliament under the law in force immediately before the coming into force of this Constitution, shall be taken to have been duly elected members of Parliament for the purposes of this Constitution.",
-      "children_ids": [],
+      "text": "A person who alleges that -",
+      "children_ids": [
+        "art_2_1_a",
+        "art_2_1_b"
+      ],
       "references": []
     },
     "art_2_1_a": {
@@ -98,7 +101,7 @@
       "level": "subsection",
       "number": "2",
       "heading": null,
-      "text": "The person who was Clerk of the Consultative Assembly or such other public officer as the Provisional National Defense Council may designate, shall, notwithstanding anything to the contrary in this Constitution, act as Clerk to Parliament until a Clerk is appointed under article 124 of this Constitution.",
+      "text": "The Supreme Court shall, for the purposes of a declaration under clause (1) of this article, make such orders and give such directions as it may consider appropriate for giving effect, or enabling effect to be given, to the declaration so made.",
       "children_ids": [],
       "references": []
     },
@@ -108,7 +111,7 @@
       "level": "subsection",
       "number": "3",
       "heading": null,
-      "text": "The person who was Clerk of the Consultative Assembly established under the Consultative Assembly Law 1991 (PNDCL.253) or other person designated under subsection (2) of this section shall, not later than seven days after the coming into force of this Constitution, summon a meeting of parliament for the election of the Speaker, the taking of oaths by members of Parliament, the swearing in of the President and the approval of Ministers of State and Deputy Ministers for appointment under this Constitution.",
+      "text": "Any person or group of persons of whom an order or direction is addressed under clause (2) of this article by the Supreme Court, shall duly obey and carry out the terms of the order or direction.",
       "children_ids": [],
       "references": []
     },
@@ -118,7 +121,7 @@
       "level": "subsection",
       "number": "4",
       "heading": null,
-      "text": "For the avoidance of doubt, any notice given before the coming into force of this Constitution summoning Parliament to meet for the purposes of subsection (3) of this section, shall be deemed to be a valid notice for all purposes.",
+      "text": "Failure to obey or carry out the terms of an order or direction made or given under clause (2) of this article constitutes a high crime under this Constitution and shall, in the case of the President or the Vice-President, constitute a ground for removal from office under this Constitution.",
       "children_ids": [],
       "references": []
     },
@@ -128,8 +131,11 @@
       "level": "subsection",
       "number": "5",
       "heading": null,
-      "text": "The Standing Orders of the Parliament under the constitution of the Republic of Ghana, 1979 shall apply to the proceedings of Parliament until Parliament otherwise determines under article 110 of this Constitution. PART III - THE JUDICIARY",
-      "children_ids": [],
+      "text": "A person convicted of a high crime under clause (4) of this article shall",
+      "children_ids": [
+        "art_2_5_a",
+        "art_2_5_b"
+      ],
       "references": []
     },
     "art_2_5_a": {
@@ -161,7 +167,13 @@
       "text": "",
       "children_ids": [
         "art_3_1",
-        "art_3_2"
+        "art_3_2",
+        "art_3_3",
+        "art_3_4",
+        "art_3_3",
+        "art_3_5",
+        "art_3_6",
+        "art_3_7"
       ],
       "references": []
     },
@@ -171,7 +183,7 @@
       "level": "subsection",
       "number": "1",
       "heading": null,
-      "text": "The Supreme Court, the Court of Appeal and the High Court in existence immediately before the coming into force of this Constitution shall be deemed to have been established under this Constitution and shall perform the functions of the Supreme Court, the Court of Appeal and the High Court specified respectively in Chapter 11 of this Constitution.",
+      "text": "Parliament shall have no power to enact a law establishing a one-party state.",
       "children_ids": [],
       "references": []
     },
@@ -181,7 +193,7 @@
       "level": "subsection",
       "number": "2",
       "heading": null,
-      "text": "All proceedings pending before any court referred to in subsection (1) of this section immediately before the coming into force of this Constitution may be proceeded with and completed in that Court notwithstanding anything in this Constitution.",
+      "text": "Any activity of a person or group of persons which suppresses or seeks to suppress the lawful political activity of any other person or any class of persons, or persons generally is unlawful.",
       "children_ids": [],
       "references": []
     },
@@ -297,7 +309,7 @@
       "level": "subsection",
       "number": "1",
       "heading": null,
-      "text": "A Justice of the Supreme Court, the Court of Appeal or the High Court holding office immediately before the coming into force of this Constitution, shall continue to hold office as if appointed to that office under this Constitution.",
+      "text": "The sovereign State of Ghana is a unitary republic consisting of those territories comprised in the regions which immediately before the coming into force of this Constitution, existed in Ghana, including the territorial sea and the air space.",
       "children_ids": [],
       "references": []
     },
@@ -307,7 +319,7 @@
       "level": "subsection",
       "number": "2",
       "heading": null,
-      "text": "Any person to whom this section applies shall, on the coming into force of this Constitution, take and subscribe the oath of allegiance and the judicial oath set out in the Second Schedule to this Constitution.",
+      "text": ". parliament may by law provide for the delimitation of the territorial sea, the contiguous zone, the exclusive economic zone and the continental shelf of Ghana.",
       "children_ids": [],
       "references": []
     },
@@ -317,8 +329,19 @@
       "level": "article",
       "number": "5",
       "heading": null,
-      "text": "The Public Tribunals Board shall cease to exist within six months after the coming into force of this Constitution and its functions, assets and liabilities are transferred to the Judicial Council.",
-      "children_ids": [],
+      "text": "",
+      "children_ids": [
+        "art_5_1",
+        "art_5_2",
+        "art_5_3",
+        "art_5_4",
+        "art_5_5",
+        "art_5_6",
+        "art_5_7",
+        "art_5_6",
+        "art_5_8",
+        "art_5_5"
+      ],
       "references": []
     },
     "art_5_1": {
@@ -487,8 +510,13 @@
       "level": "article",
       "number": "6",
       "heading": null,
-      "text": "Parliament shall, within six months after the coming into force of this Constitution- purposes of article 143 of this Constitution; and 126 of this Constitution.",
-      "children_ids": [],
+      "text": "",
+      "children_ids": [
+        "art_6_1",
+        "art_6_2",
+        "art_6_3",
+        "art_6_4"
+      ],
       "references": []
     },
     "art_6_1": {
@@ -543,7 +571,8 @@
         "art_7_2",
         "art_7_3",
         "art_7_4",
-        "art_7_5"
+        "art_7_5",
+        "art_7_6"
       ],
       "references": []
     },
@@ -553,13 +582,8 @@
       "level": "subsection",
       "number": "1",
       "heading": null,
-      "text": "All cases partly heard before any of the following Public Tribunals immediately before the coming into force of this Constitution, may be continued and completed before that public tribunal.",
-      "children_ids": [
-        "art_7_1_a",
-        "art_7_1_b",
-        "art_7_1_c",
-        "art_7_1_d"
-      ],
+      "text": "A woman married to a man who is a citizen of Ghana or a man married to a woman who is a citizen of Ghana may, upon making an application in the manner prescribed by Parliament, be registered as a citizen of Ghana.",
+      "children_ids": [],
       "references": []
     },
     "art_7_2": {
@@ -568,7 +592,7 @@
       "level": "subsection",
       "number": "2",
       "heading": null,
-      "text": "All cases partly heard before any Circuit Court, District Court Grade I or District Court Grade II immediately before the coming into force of this Constitution may be continued and completed before the Court.",
+      "text": "Clause (1) of this article applies also to a person who was married to a person who, but for his or her death, would have continued to be a citizen of Ghana under clause (1) of article 6 of this Constitution.",
       "children_ids": [],
       "references": []
     },
@@ -578,7 +602,7 @@
       "level": "subsection",
       "number": "3",
       "heading": null,
-      "text": "The National Public Tribunal shall cease to exist upon completion of the partly heard cases referred to in subsection (1) of this section, or within six months after the coming into force of this Constitution, whichever is earlier.",
+      "text": "Where the marriage of a woman is annulled after she has been registered as a citizen of Ghana under clause (1) of this article, she shall, unless she renounces that citizenship, continue to be a citizen of Ghana.",
       "children_ids": [],
       "references": []
     },
@@ -588,7 +612,7 @@
       "level": "subsection",
       "number": "4",
       "heading": null,
-      "text": "All cases other than those referred to in subsection (1) of this section pending before the National Public Tribunal immediately before the coming into force of this Constitution, shall be transferred to such court of tribunal as the Chief Justice may direct.",
+      "text": "Any child of a marriage of a woman registered as a citizen of Ghana under clause (1) of this article to which clause (3) of this article applies, shall continue to be a citizen of Ghana unless he renounces that citizenship.",
       "children_ids": [],
       "references": []
     },
@@ -598,7 +622,7 @@
       "level": "subsection",
       "number": "5",
       "heading": null,
-      "text": "Any person employed with any Public Tribunal immediately before the coming into force of this Constitution and who is qualified and suitable for appointment to any office or position in the Judicial Service, may be so appointed if recommended to be appointed by the Judicial Council. PART - IV MISCELLANEOUS",
+      "text": "Where upon an application by a man for registration under clause (1) of this article, it appears to the authority responsible for the registration that a marriage has been entered into primarily with a view to obtaining the registration, the authority may request the applicant to satisfy him that the marriage was entered into in good faith; and the authority may only effect the registration upon being so satisfied.",
       "children_ids": [],
       "references": []
     },
@@ -623,11 +647,7 @@
         "art_8_1",
         "art_8_2",
         "art_8_3",
-        "art_8_4",
-        "art_8_5",
-        "art_8_6",
-        "art_8_7",
-        "art_8_1"
+        "art_8_4"
       ],
       "references": []
     },
@@ -637,7 +657,7 @@
       "level": "subsection",
       "number": "1",
       "heading": null,
-      "text": "of his section applies shall not be less favourable than those applicable to him immediately before the coming into force of this Constitution.",
+      "text": "Subject to this article, a citizen of Ghana Shall cease forthwith to be a citizen of Ghana if, on attaining the age of twenty-one years, he, by a voluntary act, other than marriage, acquired or retains the citizenship of a country other than Ghana.",
       "children_ids": [],
       "references": []
     },
@@ -647,7 +667,7 @@
       "level": "subsection",
       "number": "2",
       "heading": null,
-      "text": "A person who before the coming into force of this Constitution would have been required under the law in force to vacate his office at the expiration of a period of service shall, notwithstanding the provisions of subsection (1) of this section, vacate his office at the expiration of that period.",
+      "text": "A person who becomes a citizen of Ghana by registration and immediately after the day on which he becomes a citizen of Ghana is also a citizen of some other country, shall cease to be a citizen of Ghana unless he has renounced his citizenship of that other country, taken the oath of allegiance specified in the Second Schedule to this Constitution and made and registered such declaration of his intentions concerning residence as may be prescribed by law, or unless he has obtained an extension of time for taking those steps and the extended period has not expired.",
       "children_ids": [],
       "references": []
     },
@@ -657,7 +677,7 @@
       "level": "subsection",
       "number": "3",
       "heading": null,
-      "text": "This section shall be without prejudice to any powers conferred by or under this Constitution or any other law not being inconsistent with any provision of this Constitution, upon any person or authority to make provision for the abolition of office, for the removal from office of persons holding or acting in any office and for requiring those persons to retire from office.",
+      "text": "A Ghanaian citizen who loses his Ghanaian citizenship as a result of the acquisition or possession of the citizenship of a country other than Ghana shall, on the renunciation of his citizenship of that other country, become a citizen of Ghana.",
       "children_ids": [],
       "references": []
     },
@@ -667,7 +687,7 @@
       "level": "subsection",
       "number": "4",
       "heading": null,
-      "text": "In determining, for the purposes of any law relating to retiring benefits or otherwise to length of service, the length of service of a public officer to whom the provisions of subsections (1) and (2) of this section apply, service as a public officer under the Government which terminates immediately before the coming into force of this Constitution shall be deemed to be continuous with service as a public officer which begins immediately at such coming into force.",
+      "text": "Where the law of a country, other than Ghana, requires a person who marries a citizen of that country to renounce the citizenship of his own country by virtue of that marriage, a citizen of Ghana who is deprived of his citizenship of Ghana by virtue of that marriage shall, on the dissolution of that marriage, if he thereby loses his citizenship acquired by that marriage, become a citizen of Ghana.",
       "children_ids": [],
       "references": []
     },
@@ -677,8 +697,14 @@
       "level": "article",
       "number": "9",
       "heading": null,
-      "text": "The first appointments to the following offices shall be made within six months after the assumption of office of the President.- Justice and his Deputies; Electoral Commission; howsoever described; (ii) the National Media Commission; and (iii) the National Commission for Civic Education.",
-      "children_ids": [],
+      "text": "",
+      "children_ids": [
+        "art_9_1",
+        "art_9_2",
+        "art_9_3",
+        "art_9_4",
+        "art_9_5"
+      ],
       "references": []
     },
     "art_9_1": {
@@ -760,8 +786,11 @@
       "level": "article",
       "number": "10",
       "heading": null,
-      "text": "Until Parliament enacts an Act of Parliament in accordance with article 192 of this Constitution for the establishment or operation of a public corporation, a public corporation in existence immediately before the coming into force of this Constitution shall continue its operations under the enactment under which it was established.",
-      "children_ids": [],
+      "text": "",
+      "children_ids": [
+        "art_10_1",
+        "art_10_2"
+      ],
       "references": []
     },
     "art_10_1": {
@@ -790,8 +819,16 @@
       "level": "article",
       "number": "11",
       "heading": null,
-      "text": "The office of the Ombudsman in existence immediately before the coming into force of this Constitution shall, until the President appoints the Commissioner for Human Rights and Administrative Justice and his Deputies, and provision is otherwise made, continue as if it forms part of the Office of the Commission for Human Rights and Administrative Justice.",
-      "children_ids": [],
+      "text": "",
+      "children_ids": [
+        "art_11_1",
+        "art_11_2",
+        "art_11_3",
+        "art_11_4",
+        "art_11_5",
+        "art_11_6",
+        "art_11_7"
+      ],
       "references": []
     },
     "art_11_1": {
@@ -960,8 +997,11 @@
       "level": "article",
       "number": "12",
       "heading": null,
-      "text": "Notwithstanding anything in this Constitution to the contrary, all cases pending before the Office of Revenue Commissioners established under the Revenue Commissioners Law, 1984 (PNDCL 80) the National Investigations Committee established under the National Investigations Committee Law, 1982 (PNDCL.2) and the State Houses (Allocation Policy and Implementation) Commission established under the State Houses (Allocation Policy and Implementation) Commission law, 1984 (PNDCL 83) in existence immediately before the coming into force of this Constitution may be proceeded with and completed by that Commission or Committee, until the submission of its report or until it is otherwise dissolved in accordance with law.",
-      "children_ids": [],
+      "text": "",
+      "children_ids": [
+        "art_12_1",
+        "art_12_2"
+      ],
       "references": []
     },
     "art_12_1": {
@@ -990,8 +1030,11 @@
       "level": "article",
       "number": "13",
       "heading": null,
-      "text": "Notwithstanding article 199 of this Constitution, a person is not entitled to receive pension under the Social Security Scheme under the Social Security Law, 1991 (PNDCL 247) before attaining the age of fifty-five years unless Parliament by law otherwise determines.",
-      "children_ids": [],
+      "text": "",
+      "children_ids": [
+        "art_13_1",
+        "art_13_2"
+      ],
       "references": []
     },
     "art_13_1": {
@@ -1068,7 +1111,12 @@
       "text": "",
       "children_ids": [
         "art_14_1",
-        "art_14_2"
+        "art_14_2",
+        "art_14_3",
+        "art_14_4",
+        "art_14_5",
+        "art_14_6",
+        "art_14_7"
       ],
       "references": []
     },
@@ -1078,8 +1126,16 @@
       "level": "subsection",
       "number": "1",
       "heading": null,
-      "text": "Notwithstanding anything in this Constitution to the contrary any commission or committee of inquiry in existence immediately before the coming into force of this Constitution may continue in existence until the submission of its report or until it is otherwise dissolved in accordance with law.",
-      "children_ids": [],
+      "text": "Every person shall be entitled to his personal liberty and no person shall be deprived of his personal liberty except in the following cases and in accordance with procedure permitted by law -",
+      "children_ids": [
+        "art_14_1_a",
+        "art_14_1_b",
+        "art_14_1_c",
+        "art_14_1_d",
+        "art_14_1_e",
+        "art_14_1_f",
+        "art_14_1_g"
+      ],
       "references": []
     },
     "art_14_1_a": {
@@ -1158,7 +1214,7 @@
       "level": "subsection",
       "number": "2",
       "heading": null,
-      "text": "For the avoidance of doubt, the report and findings of a commission or committee of inquiry established before the coming into force of this Constitution under any enactment shall have the same effect as the report or findings of a commission of inquiry established under this Constitution.",
+      "text": "A person who is arrested, restricted or detained shall be informed immediately, in a language that he understands, of the reasons for his arrest, restriction or detention and of his right to a lawyer of his choice.",
       "children_ids": [],
       "references": []
     },
@@ -1253,8 +1309,13 @@
       "level": "article",
       "number": "15",
       "heading": null,
-      "text": "Where any matter or thing has been commenced before the coming into force of this Constitution by a person or authority that has power for the purpose under the existing law, that matter or thing may be carried on and completed by the person or authority having power for the purpose after the coming into force of this Constitution; and it shall not be necessary for the person or authority to commence the matter or thing afresh.",
-      "children_ids": [],
+      "text": "",
+      "children_ids": [
+        "art_15_1",
+        "art_15_2",
+        "art_15_3",
+        "art_15_4"
+      ],
       "references": []
     },
     "art_15_1": {
@@ -1326,8 +1387,12 @@
       "level": "article",
       "number": "16",
       "heading": null,
-      "text": "The Presidential seal, the Public seal, the seals of the Superior Courts as well as any prescribed forms in use under any enactment in force immediately before the coming into force of this Constitution shall continue to be used until provision is otherwise made for them.",
-      "children_ids": [],
+      "text": "",
+      "children_ids": [
+        "art_16_1",
+        "art_16_2",
+        "art_16_3"
+      ],
       "references": []
     },
     "art_16_1": {
@@ -1411,8 +1476,14 @@
       "level": "article",
       "number": "17",
       "heading": null,
-      "text": "The prerogative of mercy of the President under article 72 of this Constitution may be exercised in respect of any criminal offence committed before the coming into force of this Constitution as it may in respect of a criminal offence committed thereafter.",
-      "children_ids": [],
+      "text": "",
+      "children_ids": [
+        "art_17_1",
+        "art_17_2",
+        "art_17_3",
+        "art_17_4",
+        "art_17_5"
+      ],
       "references": []
     },
     "art_17_1": {
@@ -1529,7 +1600,7 @@
       "level": "subsection",
       "number": "1",
       "heading": null,
-      "text": "The Consolidated Fund and the Contingency Fund in existence immediately before the coming into force of this Constitution, shall, until otherwise provided by law, continue in existence as the Consolidated Fund and the Contingency Fund referred to in article 175 of this Constitution.",
+      "text": "Every person has the right to own property either alone or in association with others.",
       "children_ids": [],
       "references": []
     },
@@ -1539,7 +1610,7 @@
       "level": "subsection",
       "number": "2",
       "heading": null,
-      "text": "Subject to this Constitution, every payment required or authorised to be made into a public fund or out of a public fund under any enactment in force immediately before the coming into force of this Constitution shall continue to be made into or out of that fund.",
+      "text": "No person shall be subjected to interference with the privacy of his home, property, correspondence or communication except in accordance with law and as may be necessary in a free and democratic society for public safety or the economic well-being of the country, for the protection of health or morals, for the prevention of disorder or crime or for the protection of the rights or freedoms of others.",
       "children_ids": [],
       "references": []
     },
@@ -1549,8 +1620,30 @@
       "level": "article",
       "number": "19",
       "heading": null,
-      "text": "Notwithstanding any law to the contrary, the financial estimates in operation for the financial year in being at the coming into force of this Constitution shall, until provision is otherwise made by Act of Parliament, continue and shall have full effect.",
-      "children_ids": [],
+      "text": "",
+      "children_ids": [
+        "art_19_1",
+        "art_19_2",
+        "art_19_3",
+        "art_19_4",
+        "art_19_5",
+        "art_19_6",
+        "art_19_7",
+        "art_19_8",
+        "art_19_9",
+        "art_19_10",
+        "art_19_11",
+        "art_19_12",
+        "art_19_13",
+        "art_19_14",
+        "art_19_15",
+        "art_19_16",
+        "art_19_17",
+        "art_19_18",
+        "art_19_19",
+        "art_19_20",
+        "art_19_21"
+      ],
       "references": []
     },
     "art_19_1": {
@@ -1973,8 +2066,15 @@
       "level": "article",
       "number": "20",
       "heading": null,
-      "text": "All compensations, pensions, gratuities and similar allowances granted in accordance with the provisions of any Constitution or any other law formerly in force in Ghana and which were payable immediately before the coming into force of this Constitution, shall, notwithstanding the abrogation or repeal of any such Constitution or law, as the case may be, continue to be payable and are charged on the Consolidated Fund.",
-      "children_ids": [],
+      "text": "",
+      "children_ids": [
+        "art_20_1",
+        "art_20_2",
+        "art_20_3",
+        "art_20_4",
+        "art_20_5",
+        "art_20_6"
+      ],
       "references": []
     },
     "art_20_1": {
@@ -2156,8 +2256,15 @@
       "level": "article",
       "number": "21",
       "heading": null,
-      "text": "Where immediately before the coming into force of this Constitution any existing enactment had not been brought into force or was to come into force on a date subsequent to such coming into force, the enactment may be brought into force in accordance with its terms, or shall come into force upon such subsequent date, as the case may be.",
-      "children_ids": [],
+      "text": "",
+      "children_ids": [
+        "art_21_1",
+        "art_21_2",
+        "art_21_3",
+        "art_21_4",
+        "art_21_5",
+        "art_21_6"
+      ],
       "references": []
     },
     "art_21_1": {
@@ -2363,7 +2470,8 @@
       "text": "",
       "children_ids": [
         "art_22_1",
-        "art_22_2"
+        "art_22_2",
+        "art_22_3"
       ],
       "references": []
     },
@@ -2373,7 +2481,7 @@
       "level": "subsection",
       "number": "1",
       "heading": null,
-      "text": "The register of voters for public election and referenda in existence immediately before the coming into force of this Constitution shall, on the coming into force of this Constitution, have effect as if it was compiled under this Constitution.",
+      "text": "A spouse shall not be deprived of a reasonable provision out of the estate of a spouse whether or not the spouse died having made a will.",
       "children_ids": [],
       "references": []
     },
@@ -2383,7 +2491,7 @@
       "level": "subsection",
       "number": "2",
       "heading": null,
-      "text": "Subject to this Constitution, the Interim National Electoral Commission in existence immediately before the coming into force of this Constitution shall, on the coming into force of this Constitution and until the President appoints the members of the Electoral Commission under section 9 of this Schedule, exercise the functions and powers provided for the Electoral Commission in this Constitution.",
+      "text": "Parliament shall, as soon as practicable after the coming into force of this Constitution, enact legislation regulating the property rights of spouses.",
       "children_ids": [],
       "references": []
     },
@@ -2426,11 +2534,8 @@
       "level": "article",
       "number": "23",
       "heading": null,
-      "text": "",
-      "children_ids": [
-        "art_23_1",
-        "art_23_2"
-      ],
+      "text": "Administrative bodies and administrative officials shall act fairly and reasonably and comply with the requirements imposed on them by law and persons aggrieved by the exercise of such acts and decisions shall have the right to seek redress before a court or other tribunal.",
+      "children_ids": [],
       "references": []
     },
     "art_24": {
@@ -2439,8 +2544,13 @@
       "level": "article",
       "number": "24",
       "heading": null,
-      "text": "The National House of Chiefs, the Regional Houses of Chiefs, the traditional councils and all Judicial Committees of those bodies in existence immediately before the coning into force of this Constitution shall, on the coming into force of this Constitution, continue in existence subject to this Constitution.",
-      "children_ids": [],
+      "text": "",
+      "children_ids": [
+        "art_24_1",
+        "art_24_2",
+        "art_24_3",
+        "art_24_4"
+      ],
       "references": []
     },
     "art_24_1": {
@@ -2489,8 +2599,11 @@
       "level": "article",
       "number": "25",
       "heading": null,
-      "text": "The Oaths Decree, 1972 (NRCD 6), as amended, shall have effect subject to the provisions of this Constitution.",
-      "children_ids": [],
+      "text": "",
+      "children_ids": [
+        "art_25_1",
+        "art_25_2"
+      ],
       "references": []
     },
     "art_25_1": {
@@ -2575,8 +2688,11 @@
       "level": "article",
       "number": "26",
       "heading": null,
-      "text": "Except where the context otherwise requires and subject to the other provisions of this Part, in all enactments in existence immediately before the coming into force of this Constitution - Cabinet; Defense Council where the reference relates to the Cabinet the reference shall be a reference to the Secretary to the Cabinet, shall be a reference to the Head of the Civil Service; ministerial rank, there shall be substituted a reference to a Minister; Defense Council responsible for any subject or department of State there shall be substituted a reference to the Minister responsible for that subject or department of State.",
-      "children_ids": [],
+      "text": "",
+      "children_ids": [
+        "art_26_1",
+        "art_26_2"
+      ],
       "references": []
     },
     "art_26_1": {
@@ -2605,8 +2721,12 @@
       "level": "article",
       "number": "27",
       "heading": null,
-      "text": "In this Constitution, any reference to the Chief of Defense Staff shall be deemed to include any person who holds or held the office of General Officer Commanding.",
-      "children_ids": [],
+      "text": "",
+      "children_ids": [
+        "art_27_1",
+        "art_27_2",
+        "art_27_3"
+      ],
       "references": []
     },
     "art_27_1": {
@@ -2648,7 +2768,10 @@
       "text": "",
       "children_ids": [
         "art_28_1",
-        "art_28_2"
+        "art_28_2",
+        "art_28_3",
+        "art_28_4",
+        "art_28_5"
       ],
       "references": []
     },
@@ -2658,8 +2781,14 @@
       "level": "subsection",
       "number": "1",
       "heading": null,
-      "text": "A reference to the Government in an enactment in existence immediately before the coming into force of this Constitution, where the reference relates to a legislative function normally performed by Parliament or a National Assembly shall be construed as a reference to Parliament.",
-      "children_ids": [],
+      "text": "Parliament shall enact such laws as are necessary to ensure that -",
+      "children_ids": [
+        "art_28_1_a",
+        "art_28_1_b",
+        "art_28_1_c",
+        "art_28_1_d",
+        "art_28_1_e"
+      ],
       "references": []
     },
     "art_28_1_a": {
@@ -2718,7 +2847,7 @@
       "level": "subsection",
       "number": "2",
       "heading": null,
-      "text": "A reference to the Government in an enactment in existence immediately before the coming into force of this Constitution, where the reference relates to an executive function of the Government, shall be construed as a reference to the President.",
+      "text": "Every child has the right to be protected from engaging in work that constitutes a threat to his health, education or development.",
       "children_ids": [],
       "references": []
     },
@@ -2763,7 +2892,11 @@
         "art_29_1",
         "art_29_2",
         "art_29_3",
-        "art_29_4"
+        "art_29_4",
+        "art_29_5",
+        "art_29_6",
+        "art_29_7",
+        "art_29_8"
       ],
       "references": []
     },
@@ -2773,7 +2906,7 @@
       "level": "subsection",
       "number": "1",
       "heading": null,
-      "text": "A reference to the Provisional National Defense Council in any enactment in existence immediately before the coming into force of this Constitution, where the reference was originally a reference to the President shall, be construed as a reference to the President.",
+      "text": "Disabled persons have the right to live with their families or with foster parents and to participate in social, creative or recreational activities.",
       "children_ids": [],
       "references": []
     },
@@ -2783,7 +2916,7 @@
       "level": "subsection",
       "number": "2",
       "heading": null,
-      "text": "A reference to the Provisional National Defense Council in any enactment in existence immediately before the coming into force of this Constitution, where the reference relates to a legislative function normally performed by Parliament or a National Assembly shall be construed as a reference to Parliament.",
+      "text": "A disabled person shall not be subjected to differential treatment in respect of his residence other than that required by his condition or by the improvement which he may derive from the treatment.",
       "children_ids": [],
       "references": []
     },
@@ -2793,7 +2926,7 @@
       "level": "subsection",
       "number": "3",
       "heading": null,
-      "text": "A reference to the Provisional national Defense Council in any enactment in existence immediately before the coming into force of this Constitution, where the reference relates to an executive function of the Council shall be construed as a reference to the President.",
+      "text": "If the stay of a disabled person in a specialised establishment is indispensable, the environment and living conditions there shall be as close as possible to those of the normal life of a person of his age.",
       "children_ids": [],
       "references": []
     },
@@ -2803,7 +2936,7 @@
       "level": "subsection",
       "number": "4",
       "heading": null,
-      "text": "A reference to the Provisional national Defense Council in any enactment in existence immediately before the coming into force of this Constitution, where the reference relates to the making of a statutory instrument, shall be construed as a reference to the President or to any Minister or authority designated by the President.",
+      "text": "Disabled persons shall be protected against all exploitation, all regulations and all treatment of a discriminatory, abusive or degrading nature.",
       "children_ids": [],
       "references": []
     },
@@ -2853,7 +2986,7 @@
       "level": "article",
       "number": "30",
       "heading": null,
-      "text": "The First President under this Constitution may, at any time within twelve months after assuming office as President, by constitutional instrument, make such provision as may appear necessary for repealing, modifying, adding to or adapting any law for bringing it into accord with the provisions of this Constitution or otherwise for giving effect to this Constitution.",
+      "text": "A person who by reason of sickness or any other cause is unable to give his consent shall not be deprived by any other person of medical treatment, education or any other social or economic benefit by reason only of religious or other beliefs. Emergency Powers",
       "children_ids": [],
       "references": []
     },
@@ -2866,7 +2999,15 @@
       "text": "",
       "children_ids": [
         "art_31_1",
-        "art_31_2"
+        "art_31_2",
+        "art_31_3",
+        "art_31_4",
+        "art_31_5",
+        "art_31_6",
+        "art_31_7",
+        "art_31_8",
+        "art_31_9",
+        "art_31_10"
       ],
       "references": []
     },
@@ -2876,7 +3017,7 @@
       "level": "subsection",
       "number": "1",
       "heading": null,
-      "text": "Where any matter that falls to be prescribed or otherwise provided for under this Constitution by Parliament or by any other authority or person, is prescribed or provided for by or under any existing law or is otherwise lawfully prescribed or provided for immediately before the coming into force of this Constitution, that prescription or provision shall, as from the coming into force of this Constitution, have effect with such modifications, adaptations, qualifications and exceptions as may be necessary to bring it into conformity with this constitution as if made under this Constitution by parliament or, as the case may be, by the other authority or person.",
+      "text": "The President may, acting in accordance with the advice of the Council of State, by Proclamation published in the Gazette, declare that a state of emergency exists in Ghana or in any part of Ghana for the purposes of the provisions of this Constitution.",
       "children_ids": [],
       "references": []
     },
@@ -2886,7 +3027,7 @@
       "level": "subsection",
       "number": "2",
       "heading": null,
-      "text": "For the avoidance of doubt, and without prejudice to the general effect of subsection (1) of this section, where anything is required or authorised by this Constitution to be prescribed or provided for by or under an Act of Parliament, it shall be deemed to be duly prescribed or provided for, if it has been prescribed or provided for by or under an Act, Decree, or a Law in force immediately before the coming into force of this Constitution.",
+      "text": "Notwithstanding any other provision of this article, where a proclamation is published under clause (1) of this article, the President shall place immediately before Parliament, the facts and circumstances leading to the declaration of the state of emergency.",
       "children_ids": [],
       "references": []
     },
@@ -3004,7 +3145,8 @@
         "art_32_1",
         "art_32_2",
         "art_32_3",
-        "art_32_4"
+        "art_32_4",
+        "art_32_5"
       ],
       "references": []
     },
@@ -3014,8 +3156,15 @@
       "level": "subsection",
       "number": "1",
       "heading": null,
-      "text": "Subject to the provisions of articles 257 and 258 of this Constitution, all properties and assets which immediately before the coming into force of this Constitution were vested in any authority or person for the purposes of, or in right of, the Government of Ghana or in the Government of Ghana, shall, on the coming into force of this Constitution, without further assurance than this section, vest in the President.",
-      "children_ids": [],
+      "text": "Where a person is restricted or detained by virtue of a law made pursuant to a declaration of a state of emergency, the following provisions shall apply",
+      "children_ids": [
+        "art_32_1_a",
+        "art_32_1_b",
+        "art_32_1_c",
+        "art_32_1_d",
+        "art_32_1_e",
+        "art_32_1_f"
+      ],
       "references": []
     },
     "art_32_1_a": {
@@ -3084,7 +3233,7 @@
       "level": "subsection",
       "number": "2",
       "heading": null,
-      "text": "Any property which was liable, immediately before the coming into force of this Constitution, to entreat or to be forfeited to the Government of Ghana shall be liable to entreat or to be forfeited to the Government of Ghana under this Constitution.",
+      "text": "On a review by a tribunal of the case of a restricted or detained person, the tribunal may order the release of the person and the payment to him of adequate compensation or uphold the grounds of his restriction or detention; and the authority by which the restriction or detention was ordered shall act accordingly.",
       "children_ids": [],
       "references": []
     },
@@ -3094,11 +3243,8 @@
       "level": "subsection",
       "number": "3",
       "heading": null,
-      "text": "Where immediately before the coming into force of this Constitution any person held any property or asset in trust -",
-      "children_ids": [
-        "art_32_3_a",
-        "art_32_3_b"
-      ],
+      "text": "In every month in which there is a sitting of parliament, a Minister of State authorised by the President, shall make report to Parliament of the number of persons restricted or detained by virtue of such a law as is referred to in clause (10) of article 31 of this Constitution and the number of cases in which the authority that ordered the restriction or detention has acted in accordance with the decisions of the tribunal appointed under this article.",
+      "children_ids": [],
       "references": []
     },
     "art_32_4": {
@@ -3107,8 +3253,12 @@
       "level": "subsection",
       "number": "4",
       "heading": null,
-      "text": "In this section, references to property and assets vested in or held in trust shall include property and assets vested in or held in trust immediately before the 31st day of December 1981, for an interest which extended beyond the 30th day of December, 1981 and has not been surrendered.",
-      "children_ids": [],
+      "text": "Notwithstanding clause (3) of this article, the Minister referred to in that clause shall publish every month in the Gazette and in the media.",
+      "children_ids": [
+        "art_32_4_a",
+        "art_32_4_b",
+        "art_32_4_c"
+      ],
       "references": []
     },
     "art_32_4_a": {
@@ -3157,8 +3307,14 @@
       "level": "article",
       "number": "33",
       "heading": null,
-      "text": "Subject to section 32 of this Schedule - privilege or function is vested in the Provisional National Defense Council, that right, prerogative, power, privilege or function shall on the coming into force of this Constitution, vest in the President or such other person or authority as is specified under this Constitution who, subject to the provisions of this Constitution or any other law, may do all things necessary for its exercise or performance; and function vested in, or subsisting against the Government of Ghana by or under an existing law shall continue to so vest or subsist.",
-      "children_ids": [],
+      "text": "",
+      "children_ids": [
+        "art_33_1",
+        "art_33_2",
+        "art_33_3",
+        "art_33_4",
+        "art_33_5"
+      ],
       "references": []
     },
     "art_33_1": {
@@ -3220,10 +3376,7 @@
       "text": "",
       "children_ids": [
         "art_34_1",
-        "art_34_2",
-        "art_34_3",
-        "art_34_4",
-        "art_34_5"
+        "art_34_2"
       ],
       "references": []
     },
@@ -3233,7 +3386,7 @@
       "level": "subsection",
       "number": "1",
       "heading": null,
-      "text": "No member of the Provisional National Defense Council, Provisional National defence Council Secretary, or other appointees of the Provisional National Defense Council shall be held liable either jointly or severally, for any act or omission during the administration of the Provisional National Defense Council.",
+      "text": "The Directive Principles of State Policy contained in this Chapter shall guide all citizens, Parliament, the President, the Judiciary, the Council of State, the Cabinet, political parties and other bodies and persons in applying or interpreting this Constitution or any other law and in taking and implementing any policy decisions, for the establishment of a just and free society.",
       "children_ids": [],
       "references": []
     },
@@ -3243,13 +3396,8 @@
       "level": "subsection",
       "number": "2",
       "heading": null,
-      "text": "It is not lawful for any court or tribunal to entertain any action or take any decision or make any order or grant any remedy or relief in any proceedings instituted against the Government of Ghana or any person acting under the authority of the Government of Ghana whether before or after the coming into force of this Constitution or against any person or persons acting in concert or individually to assist or bring about the change in Government which took place on the twenty-fourth day of February 1966 on the thirteenth day of January, 1972, on the fourth day of June 1979 and on the thirty-first day of December 1981 in respect of any act or omission relating to, or consequent upon -",
-      "children_ids": [
-        "art_34_2_a",
-        "art_34_2_b",
-        "art_34_2_c",
-        "art_34_2_d"
-      ],
+      "text": "The President shall report to Parliament at least once a year all the steps taken to ensure the realization of the policy objectives contained in this Chapter and, in particular, the realization of basic human rights, a healthy economy, the right to work, the right to good health care and the right to education.",
+      "children_ids": [],
       "references": []
     },
     "art_35": {
@@ -3261,7 +3409,14 @@
       "text": "",
       "children_ids": [
         "art_35_1",
-        "art_35_2"
+        "art_35_2",
+        "art_35_3",
+        "art_35_4",
+        "art_35_5",
+        "art_35_6",
+        "art_35_7",
+        "art_35_8",
+        "art_35_9"
       ],
       "references": []
     },
@@ -3271,7 +3426,7 @@
       "level": "subsection",
       "number": "1",
       "heading": null,
-      "text": "Subject to subsection (2) of this section, any confiscation of any property and any other penalties imposed by or under the authority of the Armed Forces Revolutionary Council and the provisional national Defense Council under any Decree or Law made by that Council, shall not be reversed by any authority under this Constitution.",
+      "text": "Ghana shall be a democratic state dedicated to the realization of freedom and justice; and accordingly, sovereignty resides in the people of Ghana from whom Government derives all its powers and authority through this Constitution.",
       "children_ids": [],
       "references": []
     },
@@ -3281,7 +3436,7 @@
       "level": "subsection",
       "number": "2",
       "heading": null,
-      "text": "Where any property or part of any property of a person was confiscated on the basis of his holding a public or political office or on any other basis, and it is established to the satisfaction of the Commissioner for Human Rights and Administrative Justice that the property or that part was acquired before he assumed the public or political office, or that it was otherwise lawfully acquired, the property or that part shall be returned to that person.",
+      "text": "The State shall protect and safeguard the independence, unity and territorial integrity of Ghana, and shall seek the well being of all her citizens.",
       "children_ids": [],
       "references": []
     },
@@ -3420,7 +3575,16 @@
       "text": "",
       "children_ids": [
         "art_36_1",
-        "art_36_2"
+        "art_36_2",
+        "art_36_3",
+        "art_36_4",
+        "art_36_5",
+        "art_36_6",
+        "art_36_7",
+        "art_36_8",
+        "art_36_9",
+        "art_36_10",
+        "art_36_11"
       ],
       "references": []
     },
@@ -3430,7 +3594,7 @@
       "level": "subsection",
       "number": "1",
       "heading": null,
-      "text": "Upon the coming into force of this Constitution, the Provisional National Defense council (Establishment) Proclamation 1981 and the Provisional national Defense Council (Establishment) Proclamation (Supplementary and consequential Provisions) Law, 1982 (PNDCL 42) shall cease to have effect.",
+      "text": "The State shall take all necessary action to ensure that the national economy is managed in such a manner as to maximize the rate of economic development and to secure the maximum welfare, freedom and happiness of every person in Ghana and to provide adequate means of livelihood and suitable employment and public assistance to the needy.",
       "children_ids": [],
       "references": []
     },
@@ -3440,8 +3604,14 @@
       "level": "subsection",
       "number": "2",
       "heading": null,
-      "text": "Notwithstanding the abrogation of the Proclamation referred to in subsection (1) of this section, any enactment or rule of law in force immediately before the coming into force of this Constitution shall, in so far as it is not inconsistent with a provision of this Constitution, continue in force as if enacted, issued, or made under the authority of this Constitution.",
-      "children_ids": [],
+      "text": "The State shall, in particular, take all necessary steps to establish a sound and healthy economy whose underlying principles shall include -",
+      "children_ids": [
+        "art_36_2_a",
+        "art_36_2_b",
+        "art_36_2_c",
+        "art_36_2_d",
+        "art_36_2_e"
+      ],
       "references": []
     },
     "art_36_2_a": {
@@ -3590,8 +3760,15 @@
       "level": "article",
       "number": "37",
       "heading": null,
-      "text": "Notwithstanding anything in Chapter 25 of this Constitution, Parliament shall have no power to amend this section or sections 34 and 35 of this Schedule. SECOND SCHEDULE FORMS OF OATH THE OATH OF ALLEGIANCE I,.........................................................................................................do (in the name of the Almighty God swear) (solemnly affirm) that I will bear true faith and allegiance to the Republic of Ghana as by law established; that I will uphold the sovereignty and integrity of Ghana; and that I will preserve, protect and defend the Constitution of the Republic of Ghana. (So help me God). To be sworn before the President, the Chief Justice or such other person as the President may designate. THE PRESIDENTIAL OATH I,............................................................................................................having been elected to the high office of President of the Republic of Ghana do (in the name of the Almighty God swear) (solemnly affirm) that I will be faithful and true to the Republic of Ghana; that I will at all times preserve, protect and defend the Constitution of the Republic of Ghana; and that I dedicate myself to the service and well-being of the people of the Republic of Ghana and to do right to all manner of persons. I further (solemnly swear) (solemnly affirm) that should I at any time break this oath of office I shall submit myself to the laws of the Republic of Ghana and suffer the penalty for it. (So help me God.) To be administered by the Chief Justice before Parliament. THE OATH OF THE VICE-PRESIDENT I,........................................................................................................having been elected to the office of Vice-President of the Republic of Ghana, do (in the name of the Almighty God swear) (solemnly affirm) that I will be faithful and true to the Republic of Ghana; that I will at all times preserve, protect and defend the Constitution of the Republic of Ghana; and I dedicate myself to the service and well-being of the people of the Republic of Ghana and to do right to all manner of persons. I further (solemnly swear) (solemnly affirm) that should I at any time break this oath of office, I shall submit myself to the laws of the Republic of Ghana and suffer the penalty for it. (So help me God). To be administered by the Chief Justice before Parliament. THE JUDICIAL OATH I,........................................................................................................having been appointed (Chief Justice/a Justice of the Supreme Court/a Justice of the Court of Appeal/a Justice of the High Court of Justice, etc.) do (in the name of the Almighty God swear) (solemnly affirm) that I will bear true faith-and allegiance to the Republic of Ghana as by law established; that I will uphold the sovereignty and integrity of the Republic of Ghana; and that I will truly and faithfully perform the functions of my office without fear or favour, affection or ill-will; and that I will at all times uphold, preserve, protect and defend the Constitution and laws of the Republic of Ghana. (So help me God.) To be sworn before the President, the Chief Justice or such other person as the Chief Justice may designate. THE OATH OF MEMBER OF COUNCIL OF STATE I,..........................................................................................do (solemnly swear in the name of the Almighty God) (solemnly affirm) that I will faithfully and conscientiously perform my duties as a member of the Council of State and uphold, preserve, protect and defend the Constitution of the Republic of Ghana. (So help me God). To be sworn before the President. THE CABINET OATH I,.....................................................................................................having been appointed a member of the Cabinet do (in the name of the Almighty God swear) (solemnly affirm) that I will not directly or indirectly reveal such matters as shall be debated in the Cabinet and committed to my secrecy; and that I will uphold, preserve, protect and defend the Constitution of the Republic of Ghana. (So help me God). To be sworn before the President. THE OATH OF MINISTER OF STATE I,.........................................................................................................having been appointed Minister of State (Deputy Minister) of the Republic of Ghana, do (in the name of the Almighty God swear) (solemnly affirm) that I will at all times well and truly serve the Republic of Ghana in the office of Minister of State (Deputy Minister;) that I will uphold, preserve, protect and defend the Constitution of the Republic of Ghana as by law established; that I will, to the best of my judgment, at all times when required, freely give my counsel and advise for the good management of the public affairs of the Republic of Ghana; and that I will not directly or indirectly reveal any matters that shall come to my knowledge in the discharge of my duties and committed to my secrecy as Minister of State (Deputy Minister). (So help me God.) To be sworn before the President. THE OATH OF SECRECY I,............................................................................................................holding the office of..................................................do (in the name of the Almighty God swear) (solemnly affirm) that I will not directly or indirectly communicate or reveal to any person any matter which shall be brought under my consideration or shall come to my knowledge in the discharge of my official duties except as may be required for the discharge of my official duties or as may be specially permitted by law. (So help me God) To be sworn before the President, the Chief Justice or such other person as the President may designate THE OFFICIAL OATH I,....................................................................................................do (in the name of the Almighty God swear) (solemnly affirm) that I will at all times well and truly serve the Republic of Ghana in the office of .......................................and that I will uphold, preserve, protect and defend the Constitution of the Republic of Ghana as by law established. (So help me God). To be sworn before the President or such other person as the President may designate. THE SPEAKER'S OATH I,...............................................................................................do (in the name of the Almighty God swear) (solemnly affirm) that I will bear true faith and allegiance to the Republic of Ghana as by law established; that I will uphold the integrity of the Republic of Ghana; that I will faithfully and conscientiously discharge my duties as Speaker of Parliament; and that I will uphold, preserve, protect and defend the Constitution of the Republic of Ghana; and that I will do right to all manner of persons in accordance with the Constitution of Ghana and the laws and conventions of Parliament without fear or favour, affection or ill-will. (So help me God.) To be sworn before the Chief Justice. THE OATH OF A MEMBER OF PARLIAMENT I,.........................................................................................having been elected a member of Parliament do (in the name of the Almighty God swear) (solemnly affirm) that I will bear true faith and allegiance to the Republic of Ghana as by law established; that I will uphold, preserve, protect and defend the Constitution of the Republic of Ghana; and that I will faithfully and conscientiously discharge the duties of a member of Parliament. (So help me God) To be sworn before the Speaker THE OATH OF THE AUDITOR-GENERAL I,..............................................................................................having been appointed Auditor-General Of the Republic of Ghana do (in the name of the Almighty God swear) (solemnly affirm) that I will bear true faith and allegiance to the Republic of Ghana; that I will uphold, preserve, protect and defend the Constitution of the Republic of Ghana; and that I will truly and faithfully perform the functions of my office without fear or favour, affection or ill-will. (So help me God). To be sworn before the President, or such other person as the President may designate. Made this 8th day of May, 1992. FLT.-LT. JERRY JOHN RAWLINGS Chairman of the Provisional National Defense Council Date of Gazette notification: 15th May 1992.",
-      "children_ids": [],
+      "text": "",
+      "children_ids": [
+        "art_37_1",
+        "art_37_2",
+        "art_37_3",
+        "art_37_4",
+        "art_37_5",
+        "art_37_6"
+      ],
       "references": []
     },
     "art_37_1": {
@@ -3839,7 +4016,7 @@
       "level": "article",
       "number": "40",
       "heading": null,
-      "text": "In its dealings with other nations, the Government shall economic and social order; settlement of international disputes by peaceful means; aims and ideals of- i) the Charter of the United Nations; ii) the Charter of the Organisation of African Unity; iii) the Commonwealth; iv) the Treaty of the Economic Community of West African States; and v) any other international organisation of which Ghana is a member.",
+      "text": "In its dealings with other nations, the Government shall",
       "children_ids": [],
       "references": []
     },
@@ -3849,7 +4026,7 @@
       "level": "article",
       "number": "41",
       "heading": null,
-      "text": "The exercise and enjoyment of rights and freedoms is inseparable from the performance of duties and obligations, and accordingly, it shall be the duty of every citizen - the symbols of the nation; others, and generally to refrain from doing acts detrimental to the welfare of other persons; misuse and waste of public funds and property; citizen lives; and order; agencies and to satisfy all tax obligations; and CHAPTER SEVEN REPRESENTATION OF THE PEOPLE Right to Vote",
+      "text": "The exercise and enjoyment of rights and freedoms is inseparable from the performance of duties and obligations, and accordingly, it shall be the duty of every citizen -",
       "children_ids": [],
       "references": []
     },
@@ -4013,7 +4190,7 @@
       "level": "article",
       "number": "45",
       "heading": null,
-      "text": "The Electoral Commission shall have the following functions - may be determined by law; local government elections; of voters; and",
+      "text": "The Electoral Commission shall have the following functions -",
       "children_ids": [],
       "references": []
     },
@@ -4945,7 +5122,7 @@
       "level": "article",
       "number": "62",
       "heading": null,
-      "text": "A person shall not be qualified for election as the President of Ghana unless - Member of Parliament, except that the disqualifications set out in paragraphs (c), (d), and (e) of clause (2) of article 94 of this Constitution shall not be removed, in respect of any such person, by a presidential pardon or by the lapse of time as provided for in clause (5) of that article.",
+      "text": "A person shall not be qualified for election as the President of Ghana unless -",
       "children_ids": [],
       "references": []
     },
@@ -6554,7 +6731,7 @@
       "level": "article",
       "number": "84",
       "heading": null,
-      "text": "The functions of the National Security Council include- internal and external security of Ghana; Ghana and the integration of the domestic, foreign and security policies relating to it so as to enable the security services and other departments and agencies of the Government to co-operate more effectively in matters relating to national security; of Ghana in relation to the actual and potential military power in the interest of national security; and policies on matters of common interest to the departments and agencies of the Government concerned with national security.",
+      "text": "The functions of the National Security Council include-",
       "children_ids": [],
       "references": []
     },
@@ -8484,7 +8661,7 @@
       "level": "article",
       "number": "107",
       "heading": null,
-      "text": "Parliament shall have no power to pass any law - parties subject to that decision or judgement; or to adversely affect the personal rights and liberties of any person or to impose a burden, obligation or liability on any person except in the case of a law enacted under articles 178 0r 182 of this Constitution.",
+      "text": "Parliament shall have no power to pass any law -",
       "children_ids": [],
       "references": []
     },
@@ -8494,7 +8671,7 @@
       "level": "article",
       "number": "108",
       "heading": null,
-      "text": "Parliament shall not, unless the bill is introduced or the motion is introduced by, or on behalf of, the President - the opinion of the person presiding, makes provision for any of the following - taxation otherwise than by reduction; or (ii) the imposition of a charge on the Consolidated Fund or other public funds of Ghana or the alteration of any such charge otherwise than by reduction; or (iii) the payment, issue or withdrawal from the Consolidated Fund or other public funds of Ghana of any moneys not charged on the Consolidated Fund or any increase in the amount of that payment, issue or withdrawal; or (iv) the composition or remission of any debt due to the Government of Ghana; or the effect of which, in the opinion of the person presiding, would be to make provision for any of the purpose specified in paragraph",
+      "text": "Parliament shall not, unless the bill is introduced or the motion is introduced by, or on behalf of, the President -",
       "children_ids": [],
       "references": []
     },
@@ -8886,7 +9063,7 @@
       "level": "article",
       "number": "120",
       "heading": null,
-      "text": "Subject to the provisions of this Constitution, a person shall not be under any civil or criminal liability in respect of the publication of - proceedings of Parliament; or unless it is shown that the publication was effected maliciously or otherwise without good faith.",
+      "text": "Subject to the provisions of this Constitution, a person shall not be under any civil or criminal liability in respect of the publication of -",
       "children_ids": [],
       "references": []
     },
@@ -9634,7 +9811,7 @@
       "level": "article",
       "number": "134",
       "heading": null,
-      "text": "A single Justice of the Supreme Court may exercise power vested in the Supreme Court not involving the decision of the cause or matter before the Supreme Court, except that - application in the exercise of any such power, a person affected by it is entitled to have the application determined by the Supreme Court constituted by three Justices of the Supreme Court and under this article may be varied, discharged or reversed by the Supreme Court constituted by three Justices of the Supreme Court.",
+      "text": "A single Justice of the Supreme Court may exercise power vested in the Supreme Court not involving the decision of the cause or matter before the Supreme Court, except that -",
       "children_ids": [],
       "references": []
     },
@@ -9832,7 +10009,7 @@
       "level": "article",
       "number": "138",
       "heading": null,
-      "text": "A single Justice of the Court of Appeal may exercise a power vested in the Court of Appeal not involving the decision of a cause or matter before the Court of Appeal, except that - application in the exercise of any such power conferred by this article, may be varied, discharged or reversed by the Court of Appeal as duly constituted. The High Court",
+      "text": "A single Justice of the Court of Appeal may exercise a power vested in the Court of Appeal not involving the decision of a cause or matter before the Court of Appeal, except that -",
       "children_ids": [],
       "references": []
     },
@@ -10815,7 +10992,7 @@
       "level": "article",
       "number": "153",
       "heading": null,
-      "text": "There shall be a Judicial Council which shall comprise the following persons - Supreme court; the Court of Appeal; High Court; shall be a person of not less than twelve years' standing as a lawyer. nominated by the Chairmen; nominated by the Association; President",
+      "text": "There shall be a Judicial Council which shall comprise the following persons -",
       "children_ids": [],
       "references": []
     },
@@ -11155,7 +11332,7 @@
       "level": "article",
       "number": "162",
       "heading": null,
-      "text": "",
+      "text": "In this Chapter, unless the context otherwise requires - 1. \"court\" includes a tribunal; 2. \"judicial office\" means -",
       "children_ids": [
         "art_162_1",
         "art_162_2",
@@ -11362,7 +11539,7 @@
       "level": "article",
       "number": "167",
       "heading": null,
-      "text": "The functions of the National Media Commission are- media for mass communication or information; maintenance of the highest journalistic standards in the mass media, including the investigation, mediation and settlement of complaints made against or by the press or other mass media; registration of newspapers and other publications, except that the regulations shall not provide for the exercise of any direction or control over the professional functions of a person engaged in the production of newspapers or other means of mass communication; and not inconsistent with this Constitution.",
+      "text": "The functions of the National Media Commission are-",
       "children_ids": [],
       "references": []
     },
@@ -12843,7 +13020,7 @@
       "level": "article",
       "number": "191",
       "heading": null,
-      "text": "A member of the public services shall not be - duties faithfully in accordance with this Constitution; or otherwise punished without just cause.",
+      "text": "A member of the public services shall not be -",
       "children_ids": [],
       "references": []
     },
@@ -13215,7 +13392,7 @@
       "level": "article",
       "number": "201",
       "heading": null,
-      "text": "There shall be established a Police Council which shall consist of - Association; acting in consultation with the Council of State, one of whom shall be of a junior rank; and",
+      "text": "There shall be established a Police Council which shall consist of -",
       "children_ids": [],
       "references": []
     },
@@ -13513,7 +13690,7 @@
       "level": "article",
       "number": "206",
       "heading": null,
-      "text": "There shall be established a Prisons Service Council which shall consist of - Association; responsible for social welfare; in consultation with the Council of State, appoint; in consultation with the Council of State one of whom shall be of a junior rank;",
+      "text": "There shall be established a Prisons Service Council which shall consist of -",
       "children_ids": [],
       "references": []
     },
@@ -13921,7 +14098,7 @@
       "level": "article",
       "number": "211",
       "heading": null,
-      "text": "There shall be established an Armed Forces Council which shall consist of - internal affairs; Warrant Officer or its equivalent in the Armed Forces; and consultation with the Council of State.",
+      "text": "There shall be established an Armed Forces Council which shall consist of -",
       "children_ids": [],
       "references": []
     },
@@ -14140,7 +14317,7 @@
       "level": "article",
       "number": "216",
       "heading": null,
-      "text": "There shall be established by Act of Parliament within six months after Parliament first meets after the coming into force of this Constitution, a Commission on Human Rights and Administrative Justice which shall consist of - and Administrative Justice",
+      "text": "There shall be established by Act of Parliament within six months after Parliament first meets after the coming into force of this Constitution, a Commission on Human Rights and Administrative Justice which shall consist of -",
       "children_ids": [],
       "references": []
     },
@@ -14160,7 +14337,7 @@
       "level": "article",
       "number": "218",
       "heading": null,
-      "text": "The functions of the Commission shall be defined and prescribed by Act of Parliament and shall include the duty. and freedoms, injustice, corruption, abuse of power and unfair treatment of any person by a public officer in the exercise of his official duties; Public Services Commission, the administrative organs of the State, the Armed Forces, the Police Service and the Prisons Service in so far as complaints relate to the failure to achieve a balanced structuring of those services or equal access by all to the recruitment of those services or fair administration in relation to those service; persons, private enterprises and other institutions where those complaints allege violations of fundamental rights and freedoms under this Constitution. and reversal of instances specified in paragraphs (a), (b) and (c) of this clause through such means as are fair, proper and effective, including - concerned; (ii) causing the complaint and its finding on it to be reported to the superior of an offending person; (iii) bringing proceedings in a competent Court for a remedy to secure the termination of the offending action or conduct, or the abandonment or alteration of the offending procedures; and (iv) bringing proceedings to restrain the enforcement of such legislation or regulation by challenging its validity if the offending action or conduct is sought to be justified by subordinate legislation or regulation which is unreasonable or other wise ultra vires; misappropriation of public moneys by officials and to take appropriate steps, including reports to the Attorney-General and the Auditor-General, resulting from such investigations; as the Commissioner may decide, including publications, lectures and symposia; and",
+      "text": "The functions of the Commission shall be defined and prescribed by Act of Parliament and shall include the duty.",
       "children_ids": [],
       "references": []
     },
@@ -14292,7 +14469,7 @@
       "level": "article",
       "number": "221",
       "heading": null,
-      "text": "A person shall not be qualified for appointment as a Commissioner or a Deputy Commissioner for Human Rights and Administrative Justice, unless he is - Justice of the Court of Appeal; and appointment as a Justice of the High Court.",
+      "text": "A person shall not be qualified for appointment as a Commissioner or a Deputy Commissioner for Human Rights and Administrative Justice, unless he is -",
       "children_ids": [],
       "references": []
     },
@@ -14480,7 +14657,7 @@
       "level": "article",
       "number": "233",
       "heading": null,
-      "text": "The functions of the Commission shall be - principles and objectives of this Constitution as the fundamental law of the people of Ghana; at all times, against all forms of abuse and violation; time, programmes at the national, regional and district levels aimed at realising the objectives of this Constitution; inculcate in the citizens of Ghana awareness of their civic responsibilities and an appreciation of their rights an obligations as free people; and",
+      "text": "The functions of the Commission shall be -",
       "children_ids": [],
       "references": []
     },
@@ -14706,7 +14883,7 @@
       "level": "article",
       "number": "242",
       "heading": null,
-      "text": "A District Assembly shall consist of the following members - the district elected by universal adult suffrage; that fall within the area of authority of the District Assembly as members without the right to vote; members of the District Assembly, appointed by the President in consultation with the traditional authorities and other interest groups in the district.",
+      "text": "A District Assembly shall consist of the following members -",
       "children_ids": [],
       "references": []
     },
@@ -14917,7 +15094,7 @@
       "level": "article",
       "number": "245",
       "heading": null,
-      "text": "Parliament shall, by law, prescribe the functions of District Assemblies which shall include - strategies for the effective mobilization of the resources necessary for the overall development of the district;",
+      "text": "Parliament shall, by law, prescribe the functions of District Assemblies which shall include -",
       "children_ids": [],
       "references": []
     },
@@ -15487,7 +15664,7 @@
       "level": "article",
       "number": "259",
       "heading": null,
-      "text": "The Lands Commission shall consist of the following persons appointed by the President under article 70 of this Constitution - Minister; each case by the body concerned - (ii) the Ghana Bar Association; (iii) the Ghana Institution of Surveyors; (iv) each Regional Lands Commission; country planning; (vi) the National Association of Farmers and Fishermen; (vii) the Environmental Protection Council, and (viii) the Ministry responsible for Lands and Natural Resources; and the Executive Secretary.",
+      "text": "The Lands Commission shall consist of the following persons appointed by the President under article 70 of this Constitution -",
       "children_ids": [],
       "references": []
     },
@@ -15520,7 +15697,7 @@
       "level": "subsection",
       "number": "2",
       "heading": null,
-      "text": "The activities of all the Regional Lands Commissions shall b e co- ordinated by the Lands Commission.",
+      "text": "The activities of all the Regional Lands Commissions shall be co- ordinated by the Lands Commission.",
       "children_ids": [],
       "references": []
     },
@@ -15530,7 +15707,108 @@
       "level": "article",
       "number": "261",
       "heading": null,
-      "text": "A Regional Lands Commission shall consist of the following persons appointed by the Minister responsible for lands and natural resources - Minister; nominated by the body concerned - (ii) each District Assembly within the region; and (iii) the Department responsible for town and country planning; region; the region;",
+      "text": "A Regional Lands Commission shall consist of the following persons appointed by the Minister responsible for lands and natural resources -",
+      "children_ids": [
+        "art_261_1",
+        "art_261_2"
+      ],
+      "references": []
+    },
+    "art_261_1": {
+      "id": "art_261_1",
+      "parent_id": "art_261",
+      "level": "subsection",
+      "number": "1",
+      "heading": null,
+      "text": "The Lands Commission shall have a branch in each region to be known as a Regional Lands Commission for the performance of the functions specified in article 258 of this Constitution in respect of the region.",
+      "children_ids": [],
+      "references": []
+    },
+    "art_261_2": {
+      "id": "art_261_2",
+      "parent_id": "art_261",
+      "level": "subsection",
+      "number": "2",
+      "heading": null,
+      "text": "The activities of all the Regional Lands Commissions shall b e co- ordinated by the Lands Commission. 261. A Regional Lands Commission shall consist of the following persons appointed by the Minister responsible for lands and natural resources -",
+      "children_ids": [
+        "art_261_2_a",
+        "art_261_2_b",
+        "art_261_2_i",
+        "art_261_2_c",
+        "art_261_2_d",
+        "art_261_2_e",
+        "art_261_2_f"
+      ],
+      "references": []
+    },
+    "art_261_2_a": {
+      "id": "art_261_2_a",
+      "parent_id": "art_261_2",
+      "level": "paragraph",
+      "number": "a",
+      "heading": null,
+      "text": "a chairman who is neither a Minister of State nor a Deputy Minister;",
+      "children_ids": [],
+      "references": []
+    },
+    "art_261_2_b": {
+      "id": "art_261_2_b",
+      "parent_id": "art_261_2",
+      "level": "paragraph",
+      "number": "b",
+      "heading": null,
+      "text": "a representative each of the following bodies in each case nominated by the body concerned -",
+      "children_ids": [],
+      "references": []
+    },
+    "art_261_2_i": {
+      "id": "art_261_2_i",
+      "parent_id": "art_261_2",
+      "level": "paragraph",
+      "number": "i",
+      "heading": null,
+      "text": "the Regional House of Chiefs; (ii) each District Assembly within the region; and (iii) the Department responsible for town and country planning;",
+      "children_ids": [],
+      "references": []
+    },
+    "art_261_2_c": {
+      "id": "art_261_2_c",
+      "parent_id": "art_261_2",
+      "level": "paragraph",
+      "number": "c",
+      "heading": null,
+      "text": "a nominee of the Ghana Bar Association practising in the region;",
+      "children_ids": [],
+      "references": []
+    },
+    "art_261_2_d": {
+      "id": "art_261_2_d",
+      "parent_id": "art_261_2",
+      "level": "paragraph",
+      "number": "d",
+      "heading": null,
+      "text": "a nominee of the Ghana Institution of Surveyors practising in the region;",
+      "children_ids": [],
+      "references": []
+    },
+    "art_261_2_e": {
+      "id": "art_261_2_e",
+      "parent_id": "art_261_2",
+      "level": "paragraph",
+      "number": "e",
+      "heading": null,
+      "text": "the National Association of Farmers and Fishermen; and",
+      "children_ids": [],
+      "references": []
+    },
+    "art_261_2_f": {
+      "id": "art_261_2_f",
+      "parent_id": "art_261_2",
+      "level": "paragraph",
+      "number": "f",
+      "heading": null,
+      "text": "the Regional Lands Officer.",
       "children_ids": [],
       "references": []
     },
@@ -16104,7 +16382,7 @@
       "level": "article",
       "number": "272",
       "heading": null,
-      "text": "The National House of Chiefs shall - under this Constitution or any other law for any matter relating to or affecting chieftaincy; of customary law with a view to evolving, in appropriate cases, a unified system of rules of customary law, and compiling the customary laws and lines of succession applicable to each stool or skin; a view to eliminating those customs and usages that are outmoded and socially harmful; function assigned to the House of Chiefs of a region, as Parliament may refer to it.",
+      "text": "The National House of Chiefs shall -",
       "children_ids": [],
       "references": []
     },
@@ -17541,7 +17819,7 @@
       "level": "article",
       "number": "296",
       "heading": null,
-      "text": "Where in this Constitution or in any other law discretionary power is vested in any person or authority - fair and candid; capricious or biased wither by resentment, prejudice or personal dislike and shall be in accordance with due process of law; and officer, there shall be published by constitutional instrument or statutory instrument, regulations that are not inconsistent with the provisions of this Constitution or that other law to govern the exercise of the discretionary power.",
+      "text": "Where in this Constitution or in any other law discretionary power is vested in any person or authority -",
       "children_ids": [],
       "references": []
     },
@@ -17551,7 +17829,7 @@
       "level": "article",
       "number": "297",
       "heading": null,
-      "text": "In this Constitution and in any other law - the public service shall include the power to confirm appointments, to exercise disciplinary control over persons holding or acting in any such office and to remove the persons from office; may be exercised and the duty shall be performed, from time to time, as occasion requires; the doing of an act or a thing, all such powers shall be deemed to be also given as are necessary to enable that person or authority to do or enforce the doing of the act of thing; statutory instrument, regulation or rule or pass any resolution or give any direction, the power shall be construed as including the power, exercisable in the same manner, to amend or to revoke the constitutional or statutory instrument, regulation, rules or resolution or direction as the case may be; corporations. include the singular; that word have corresponding meanings; thing, or otherwise applying to him by the designation of his office, include his successors in office and all his deputies and all other assistants; or a thing, or otherwise applying to him by the designation of his office, include a person acting for him, or if the office is vacant, a person designated to act in that office by or under the authority of an Act of Parliament and also his successors in office and all his deputies or other assistants; of an office as such, the power may be exercised and the duty shall be performed by the person for the time being charged with the performance of the functions of that office.",
+      "text": "In this Constitution and in any other law -",
       "children_ids": [],
       "references": []
     },
@@ -17571,187 +17849,7 @@
       "level": "article",
       "number": "299",
       "heading": null,
-      "text": "The transitional provisions specified in the First Schedule to this Constitution shall have effect notwithstanding anything to the contrary in this Constitution. FIRST SCHEDULE TRANSITIONAL PROVISIONS PART I - FIRST PRESIDENT",
-      "children_ids": [],
-      "references": []
-    },
-    "art_7_1_a": {
-      "id": "art_7_1_a",
-      "parent_id": "art_7_1",
-      "level": "paragraph",
-      "number": "a",
-      "heading": null,
-      "text": "the National Public Tribunal;",
-      "children_ids": [],
-      "references": []
-    },
-    "art_7_1_b": {
-      "id": "art_7_1_b",
-      "parent_id": "art_7_1",
-      "level": "paragraph",
-      "number": "b",
-      "heading": null,
-      "text": "Regional Public Tribunals;",
-      "children_ids": [],
-      "references": []
-    },
-    "art_7_1_c": {
-      "id": "art_7_1_c",
-      "parent_id": "art_7_1",
-      "level": "paragraph",
-      "number": "c",
-      "heading": null,
-      "text": "District Public Tribunals; and",
-      "children_ids": [],
-      "references": []
-    },
-    "art_7_1_d": {
-      "id": "art_7_1_d",
-      "parent_id": "art_7_1",
-      "level": "paragraph",
-      "number": "d",
-      "heading": null,
-      "text": "Community Public Tribunals.",
-      "children_ids": [],
-      "references": []
-    },
-    "art_8_5": {
-      "id": "art_8_5",
-      "parent_id": "art_8",
-      "level": "subsection",
-      "number": "5",
-      "heading": null,
-      "text": "A person to whom the provisions of this section apply shall, immediately on the coming into force of this Constitution or at any convenient time thereafter, take and subscribe the oath, if any, required for that office by law.",
-      "children_ids": [],
-      "references": []
-    },
-    "art_8_6": {
-      "id": "art_8_6",
-      "parent_id": "art_8",
-      "level": "subsection",
-      "number": "6",
-      "heading": null,
-      "text": "A person who was entitled to retire on his salary immediately before the coming into force of this Constitution shall have the same terms and condition of service relating to retiring awards as he enjoyed immediately before the coming into force of this Constitution; and accordingly, nothing in this Constitution or in this Schedule shall adversely affect the conditions of service of any such person.",
-      "children_ids": [],
-      "references": []
-    },
-    "art_8_7": {
-      "id": "art_8_7",
-      "parent_id": "art_8",
-      "level": "subsection",
-      "number": "7",
-      "heading": null,
-      "text": "The terms and conditions of service of a person to whom subsection",
-      "children_ids": [],
-      "references": []
-    },
-    "art_23_1": {
-      "id": "art_23_1",
-      "parent_id": "art_23",
-      "level": "subsection",
-      "number": "1",
-      "heading": null,
-      "text": "Until Parliament otherwise provides by law, existing laws regulating the operation of District Assemblies and other local authorities shall continue to regulate their operations.",
-      "children_ids": [],
-      "references": []
-    },
-    "art_23_2": {
-      "id": "art_23_2",
-      "parent_id": "art_23",
-      "level": "subsection",
-      "number": "2",
-      "heading": null,
-      "text": "Until Parliament establishes the District Assemblies Common Fund in accordance with article 252 of this Constitution, all taxes and other moneys collected exclusively for District Assemblies shall continue to be collected exclusively for District Assemblies under the enactments under which they were collected.",
-      "children_ids": [],
-      "references": []
-    },
-    "art_32_3_a": {
-      "id": "art_32_3_a",
-      "parent_id": "art_32_3",
-      "level": "paragraph",
-      "number": "a",
-      "heading": null,
-      "text": "for the President of Ghana under the Constitution that was abrogated on 31st December, 1981; or",
-      "children_ids": [],
-      "references": []
-    },
-    "art_32_3_b": {
-      "id": "art_32_3_b",
-      "parent_id": "art_32_3",
-      "level": "paragraph",
-      "number": "b",
-      "heading": null,
-      "text": "for the Provisional National Defense Council or the Government of Ghana; for the purposes of, or in right of, the Government of Ghana, that person shall, on the coming into force of this Constitution, hold the property or asset subject to the provisions of articles 257 and 258 of this Constitution, on the same trust for the Government of Ghana established under this Constitution.",
-      "children_ids": [],
-      "references": []
-    },
-    "art_34_2_a": {
-      "id": "art_34_2_a",
-      "parent_id": "art_34_2",
-      "level": "paragraph",
-      "number": "a",
-      "heading": null,
-      "text": "the overthrow of the government in power before the formation of the National Liberation council, the National Redemption Council, the Supreme Military Council, the Armed Forces Revolutionary Council and the Provisional National Defense Council; or",
-      "children_ids": [],
-      "references": []
-    },
-    "art_34_2_b": {
-      "id": "art_34_2_b",
-      "parent_id": "art_34_2",
-      "level": "paragraph",
-      "number": "b",
-      "heading": null,
-      "text": "the suspension or a abrogation of the Constitutions of 1960, 1969 and 1979; or",
-      "children_ids": [],
-      "references": []
-    },
-    "art_34_2_c": {
-      "id": "art_34_2_c",
-      "parent_id": "art_34_2",
-      "level": "paragraph",
-      "number": "c",
-      "heading": null,
-      "text": "the establishment of the National Liberation Council, the National Redemption Council, the Supreme Military Council which took office on the ninth day of October 1975, the Supreme Military Council established on the fifth day of July 1978, the Armed Forces Revolutionary Council, or the Provisional National Defense Council; or",
-      "children_ids": [],
-      "references": []
-    },
-    "art_34_2_d": {
-      "id": "art_34_2_d",
-      "parent_id": "art_34_2",
-      "level": "paragraph",
-      "number": "d",
-      "heading": null,
-      "text": "the establishment of this Constitution.",
-      "children_ids": [],
-      "references": []
-    },
-    "art_34_3": {
-      "id": "art_34_3",
-      "parent_id": "art_34",
-      "level": "subsection",
-      "number": "3",
-      "heading": null,
-      "text": "For the avoidance of doubt, it is declared that no executive, legislative or judicial action taken or purported to have been taken by the Provisional National Defense Council or the Armed Forces Revolutionary Council or a member of the Provisional National Defense Council or the Armed Forces Revolutionary Council or by any person appointed by the Provisional National Defense Council or the Armed Forces Revolutionary Council or by any person appointed by the Provisional National Defense Council or the Armed Forces Revolutionary Council in the name of either the Provisional National Defense Council or the Armed Forces Revolutionary Council shall be questioned in any proceedings whatsoever and, accordingly, it shall not be lawful for any court or other tribunal to make any order or grant any remedy or relief in respect of any such act.",
-      "children_ids": [],
-      "references": []
-    },
-    "art_34_4": {
-      "id": "art_34_4",
-      "parent_id": "art_34",
-      "level": "subsection",
-      "number": "4",
-      "heading": null,
-      "text": "The provisions of subsection (3) of this section shall have effect notwithstanding that any such action as is referred to in that subsection was not taken in accordance with any procedure prescribed by law.",
-      "children_ids": [],
-      "references": []
-    },
-    "art_34_5": {
-      "id": "art_34_5",
-      "parent_id": "art_34",
-      "level": "subsection",
-      "number": "5",
-      "heading": null,
-      "text": "It is not lawful for any court or tribunal to entertain an action instituted in respect of an act or omission against a person acting or omitting to act, on the instructions or authority of the Provisional National Defense Council or the Armed Forces Revolutionary Council or a member of the Provisional national Defense Council or the Armed Forces Revolutionary council and alleged to be in contravention of any law, whether substantive or procedural, in existence before or during the administration of the Provisional National Defense Council or the Armed Forces Revolutionary Council.",
+      "text": "The transitional provisions specified in the First Schedule to this Constitution shall have effect notwithstanding anything to the contrary in this Constitution.",
       "children_ids": [],
       "references": []
     }
@@ -17917,10 +18015,6 @@
     "art_159",
     "art_160",
     "art_162",
-    "art_1",
-    "art_2",
-    "art_3",
-    "art_162",
     "art_163",
     "art_164",
     "art_165",
@@ -18020,8 +18114,6 @@
     "art_259",
     "art_260",
     "art_261",
-    "art_260",
-    "art_261",
     "art_262",
     "art_263",
     "art_264",
@@ -18055,43 +18147,6 @@
     "art_296",
     "art_297",
     "art_298",
-    "art_299",
-    "art_1",
-    "art_2",
-    "art_3",
-    "art_4",
-    "art_5",
-    "art_6",
-    "art_7",
-    "art_8",
-    "art_9",
-    "art_10",
-    "art_11",
-    "art_12",
-    "art_13",
-    "art_14",
-    "art_15",
-    "art_16",
-    "art_17",
-    "art_18",
-    "art_19",
-    "art_20",
-    "art_21",
-    "art_22",
-    "art_23",
-    "art_24",
-    "art_25",
-    "art_26",
-    "art_27",
-    "art_28",
-    "art_29",
-    "art_30",
-    "art_31",
-    "art_32",
-    "art_33",
-    "art_34",
-    "art_35",
-    "art_36",
-    "art_37"
+    "art_299"
   ]
 }
