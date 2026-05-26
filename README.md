@@ -25,11 +25,12 @@ notebooks/                  Exploratory analysis
 ## Build Order
 
 1. Lock methodology and assemble the corpus.
-2. Parse bills into clause level JSON.
-3. Index the Constitution and bill clauses.
-4. Add risk classification and constitutional checks.
-5. Build the human review interface.
-6. Publish the NITA Bill launch report.
+2. Mirror GhaLII reference materials and resolve Act and Constitution citations.
+3. Parse bills into clause level JSON.
+4. Index the Constitution and bill clauses.
+5. Add risk classification and constitutional checks.
+6. Build the human review interface.
+7. Publish the NITA Bill launch report.
 
 ## Evidence Rule
 

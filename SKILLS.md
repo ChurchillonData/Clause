@@ -96,3 +96,15 @@ Paths.
 - `scripts/`
 
 Decision. D-011
+
+## Legal Reference Resolution
+
+Demonstrated by the planned GhaLII mirror and resolver layer.
+
+Paths.
+
+- `src/clauseguard/reference/`
+- `docs/reference/ghana_acts/`
+- `tests/reference/`
+
+Spec. SPEC 01

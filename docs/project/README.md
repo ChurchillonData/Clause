@@ -6,3 +6,4 @@ This folder stores the source documents used to scaffold ClauseGuard.
 - `CLAUDE.pdf`
 - `DECISIONS.pdf`
 - `SKILLS.pdf`
+- `SPEC_01_mirror_and_resolver.pdf`
