@@ -5,6 +5,7 @@ from clauseguard.reference.parser_xml import parse_xml_document, parse_xml_file
 from clauseguard.reference.registry import load_registry, write_registry
 from clauseguard.reference.resolver import ReferenceResolver
 from clauseguard.reference.schemas import LegalDocument, TextNode
+from clauseguard.reference.smoke import run_reference_smoke, smoke_passed
 
 __all__ = [
     "LegalDocument",
@@ -16,4 +17,6 @@ __all__ = [
     "parse_xml_file",
     "load_registry",
     "write_registry",
+    "run_reference_smoke",
+    "smoke_passed",
 ]

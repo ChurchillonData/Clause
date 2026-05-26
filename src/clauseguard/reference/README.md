@@ -26,7 +26,9 @@ Current modules.
 - `legislation_index.py`
 - `mirror_cli.py`
 - `refresh_cli.py`
+- `smoke.py`
+- `smoke_cli.py`
 
 The spec names `src/lexlens/reference/`. This repo uses `src/clauseguard/`, so the package path is `src/clauseguard/reference/`.
 
-The implemented slices define shared schemas, parsers, registry loading, reference resolution, the polite GhaLII client, mirror orchestration, and CLI helpers.
+The implemented slices define shared schemas, parsers, registry loading, reference resolution, the polite GhaLII client, mirror orchestration, CLI helpers, and local smoke checks.
