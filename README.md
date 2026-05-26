@@ -25,14 +25,11 @@ The root stays small on purpose. Living governance Markdown lives under `docs/go
 
 ## Current Build Target
 
-SPEC 01 is the active build target.
+Step 3 is the active build target.
 
-It covers two deterministic components:
+The SPEC 01 reference foundation is implemented. The current layer parses bill PDFs into clause-level JSON.
 
-- GhaLII mirror for the 1992 Constitution and Acts of Parliament.
-- Reference resolver for citations such as `Act 769`, `NCA Act`, `section 12 of Act 769`, and `Article 19(2)(d)`.
-
-It does not include the bill parser, risk classifier, API, frontend, or LLM calls.
+It does not include risk classification, constitutional checks, API, frontend, or LLM calls.
 
 ## Build Order
 
