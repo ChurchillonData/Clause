@@ -23,11 +23,10 @@ Current modules.
 - `resolver.py`
 - `ghalii_client.py`
 - `mirror.py`
-
-Planned modules.
-
-- `logging.py`
+- `legislation_index.py`
+- `mirror_cli.py`
+- `refresh_cli.py`
 
 The spec names `src/lexlens/reference/`. This repo uses `src/clauseguard/`, so the package path is `src/clauseguard/reference/`.
 
-The first implemented slices define the shared legal document schemas and parse XML or fallback HTML into those schemas.
+The implemented slices define shared schemas, parsers, registry loading, reference resolution, the polite GhaLII client, mirror orchestration, and CLI helpers.

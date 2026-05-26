@@ -1,9 +1,6 @@
 # Scripts
 
-Future corpus and maintenance scripts live here.
+Corpus and maintenance scripts live here.
 
-Planned script.
-
-- `index_bills.py`
-- `mirror_ghalii.py`
-- `refresh_mirror.py`
+- `mirror_ghalii.py` mirrors GhaLII reference documents.
+- `refresh_mirror.py` refreshes the local mirror.
