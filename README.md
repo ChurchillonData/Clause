@@ -18,7 +18,6 @@ The project is not a legal opinion engine. It does not predict parliamentary out
 |-- scripts/                 CLI and maintenance entry points
 |-- frontend/                Future human review interface
 |-- data/                    Local generated data and vector stores
-|-- notebooks/               Exploration only
 `-- logs/                    Local mirror run logs
 ```
 

@@ -13,6 +13,5 @@ data/processed/*
 !data/processed/.gitkeep
 data/labels/*
 !data/labels/.gitkeep
-notebooks/.ipynb_checkpoints/
 logs/*.jsonl
 !logs/.gitkeep
