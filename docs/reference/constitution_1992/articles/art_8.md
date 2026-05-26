@@ -1,0 +1,10 @@
+# Article 8
+
+  of his section applies shall not be less favourable than those applicable to him immediately before the coming into force of this Constitution.
+  A person who before the coming into force of this Constitution would have been required under the law in force to vacate his office at the expiration of a period of service shall, notwithstanding the provisions of subsection (1) of this section, vacate his office at the expiration of that period.
+  This section shall be without prejudice to any powers conferred by or under this Constitution or any other law not being inconsistent with any provision of this Constitution, upon any person or authority to make provision for the abolition of office, for the removal from office of persons holding or acting in any office and for requiring those persons to retire from office.
+  In determining, for the purposes of any law relating to retiring benefits or otherwise to length of service, the length of service of a public officer to whom the provisions of subsections (1) and (2) of this section apply, service as a public officer under the Government which terminates immediately before the coming into force of this Constitution shall be deemed to be continuous with service as a public officer which begins immediately at such coming into force.
+  A person to whom the provisions of this section apply shall, immediately on the coming into force of this Constitution or at any convenient time thereafter, take and subscribe the oath, if any, required for that office by law.
+  A person who was entitled to retire on his salary immediately before the coming into force of this Constitution shall have the same terms and condition of service relating to retiring awards as he enjoyed immediately before the coming into force of this Constitution; and accordingly, nothing in this Constitution or in this Schedule shall adversely affect the conditions of service of any such person.
+  The terms and conditions of service of a person to whom subsection
+  of his section applies shall not be less favourable than those applicable to him immediately before the coming into force of this Constitution.

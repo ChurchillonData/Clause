@@ -1,0 +1,4 @@
+# Article 35
+
+  Subject to subsection (2) of this section, any confiscation of any property and any other penalties imposed by or under the authority of the Armed Forces Revolutionary Council and the provisional national Defense Council under any Decree or Law made by that Council, shall not be reversed by any authority under this Constitution.
+  Where any property or part of any property of a person was confiscated on the basis of his holding a public or political office or on any other basis, and it is established to the satisfaction of the Commissioner for Human Rights and Administrative Justice that the property or that part was acquired before he assumed the public or political office, or that it was otherwise lawfully acquired, the property or that part shall be returned to that person.

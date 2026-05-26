@@ -1,0 +1,3 @@
+# Article 33
+
+Subject to section 32 of this Schedule - privilege or function is vested in the Provisional National Defense Council, that right, prerogative, power, privilege or function shall on the coming into force of this Constitution, vest in the President or such other person or authority as is specified under this Constitution who, subject to the provisions of this Constitution or any other law, may do all things necessary for its exercise or performance; and function vested in, or subsisting against the Government of Ghana by or under an existing law shall continue to so vest or subsist.

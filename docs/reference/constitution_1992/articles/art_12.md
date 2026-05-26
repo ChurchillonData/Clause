@@ -1,0 +1,3 @@
+# Article 12
+
+Notwithstanding anything in this Constitution to the contrary, all cases pending before the Office of Revenue Commissioners established under the Revenue Commissioners Law, 1984 (PNDCL 80) the National Investigations Committee established under the National Investigations Committee Law, 1982 (PNDCL.2) and the State Houses (Allocation Policy and Implementation) Commission established under the State Houses (Allocation Policy and Implementation) Commission law, 1984 (PNDCL 83) in existence immediately before the coming into force of this Constitution may be proceeded with and completed by that Commission or Committee, until the submission of its report or until it is otherwise dissolved in accordance with law.

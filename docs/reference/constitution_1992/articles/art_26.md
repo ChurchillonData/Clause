@@ -1,0 +1,3 @@
+# Article 26
+
+Except where the context otherwise requires and subject to the other provisions of this Part, in all enactments in existence immediately before the coming into force of this Constitution - Cabinet; Defense Council where the reference relates to the Cabinet the reference shall be a reference to the Secretary to the Cabinet, shall be a reference to the Head of the Civil Service; ministerial rank, there shall be substituted a reference to a Minister; Defense Council responsible for any subject or department of State there shall be substituted a reference to the Minister responsible for that subject or department of State.
