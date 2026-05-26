@@ -21,11 +21,11 @@ Current modules.
 - `registry.py`
 - `citation.py`
 - `resolver.py`
+- `ghalii_client.py`
 
 Planned modules.
 
 - `mirror.py`
-- `ghalii_client.py`
 - `logging.py`
 
 The spec names `src/lexlens/reference/`. This repo uses `src/clauseguard/`, so the package path is `src/clauseguard/reference/`.
