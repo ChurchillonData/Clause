@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="act">
+    <body>
+      <section>
+        <num>5.</num>
+        <content>
+          <p>The Minister may make regulations.</p>
+        </content>
+        <section>
+          <num>6.</num>
+          <content>
+            <p>This nested section is ignored as a top-level root.</p>
+          </content>
+        </section>
+      </section>
+      <section>
+        <content>
+          <p>This section has no displayed number.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

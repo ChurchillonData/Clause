@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="act">
+    <meta>
+      <identification source="#ghalii">
+        <FRBRWork>
+          <FRBRdate date="2020-12-29" name="Generation"/>
+          <FRBRnumber value="1038"/>
+        </FRBRWork>
+      </identification>
+    </meta>
+    <preface>
+      <p><docTitle>Cybersecurity Act, 2020</docTitle></p>
+    </preface>
+    <body>
+      <section eId="sec_12">
+        <num>12.</num>
+        <heading>Functions of the Authority</heading>
+        <subsection eId="sec_12__subsec_3">
+          <num>(3)</num>
+          <content>
+            <p>The Authority may issue directives to operators.</p>
+          </content>
+          <paragraph eId="sec_12__subsec_3__para_b">
+            <num>(b)</num>
+            <content>
+              <p>The directive shall be published in the Gazette.</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

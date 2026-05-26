@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="constitution">
+    <meta>
+      <identification source="#ghalii">
+        <FRBRWork>
+          <FRBRdate date="1992-04-28" name="Generation"/>
+        </FRBRWork>
+      </identification>
+    </meta>
+    <preface>
+      <p><docTitle>Constitution of the Republic of Ghana, 1992</docTitle></p>
+    </preface>
+    <body>
+      <article eId="art_19">
+        <num>19.</num>
+        <heading>Fair trial</heading>
+        <content>
+          <p>A person charged with a criminal offence shall be given a fair hearing.</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>
