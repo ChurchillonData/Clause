@@ -37,7 +37,9 @@ def extract_year(root: etree._Element, source_url: str, doc_type: DocTypeInput) 
 
     date_node = root.xpath(".//*[local-name()='FRBRdate']/@date")
     if date_node:
-        return int(str(date_node[0])[:4])
+        year = year_prefix(str(date_node[0]))
+        if year is not None:
+            return year
     year = first_integer_part(source_url)
     if year is not None:
         return year
@@ -72,3 +74,10 @@ def first_integer_part(text: str) -> int | None:
         if len(part) == 4 and part.isdigit():
             return int(part)
     return None
+
+
+def year_prefix(text: str) -> int | None:
+    """Return a four digit year from the start of a date string."""
+
+    prefix = text[:4]
+    return int(prefix) if len(prefix) == 4 and prefix.isdigit() else None

@@ -43,6 +43,8 @@ def parse_node(
     node_id = node_id_for(element, level, parent_numbers, number)
     child_numbers = [*parent_numbers, number]
     node = build_text_node(element, node_id, parent_id, level, number)
+    if node.id in nodes:
+        raise ValueError(f"Duplicate XML node id: {node.id}")
     nodes[node.id] = node
 
     for child in direct_legal_children(element):

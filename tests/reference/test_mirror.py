@@ -4,14 +4,21 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import pytest
+
 from clauseguard.reference.ghalii_client import GhaliiClientError
 from clauseguard.reference.mirror import (
     default_log_path,
     mirror_act,
     mirror_constitution,
+)
+from clauseguard.reference.mirror_registry import (
+    constitution_registry_entry,
+    merge_registry_entries,
+    mirror_registry_path,
     write_mirror_registry,
 )
-from clauseguard.reference.registry import load_registry
+from clauseguard.reference.registry import RegistryError, load_registry
 
 FIXTURE_ROOT = Path(__file__).parent / "fixtures"
 
@@ -119,6 +126,53 @@ def test_write_mirror_registry_writes_entries(tmp_path: Path) -> None:
 
     registry_path = tmp_path / "docs" / "reference" / "ghana_acts" / "registry.json"
     assert load_registry(registry_path)[0].act_number == 769
+
+
+def test_write_mirror_registry_preserves_existing_entries(tmp_path: Path) -> None:
+    """Update one registry entry without deleting other documents."""
+
+    client = FakeClient(
+        {
+            "/akn/gh/act/1992/constitution/eng@.xml": fixture_text("xml/constitution_article.xml"),
+            "/akn/gh/act/2008/769/eng@.xml": fixture_text("xml/simple_act.xml"),
+        }
+    )
+    constitution = mirror_constitution(client, tmp_path, tmp_path / "logs" / "mirror.jsonl")
+    constitution_entry = constitution_registry_entry(constitution, tmp_path)
+    write_mirror_registry([constitution_entry], tmp_path)
+    act_entry = mirror_act(client, tmp_path, 2008, 769, tmp_path / "logs" / "mirror.jsonl")
+
+    write_mirror_registry([act_entry], tmp_path)
+
+    registry_path = tmp_path / "docs" / "reference" / "ghana_acts" / "registry.json"
+    entries = load_registry(registry_path)
+    assert {entry.doc_type for entry in entries} == {"constitution", "act"}
+
+
+def test_merge_registry_entries_replaces_same_document() -> None:
+    """Replace matching registry entries by document identity."""
+
+    original = load_registry(FIXTURE_ROOT / "registry" / "registry_resolver.json")[1]
+    updated = original.model_copy(update={"content_hash": "new-hash"})
+
+    entries = merge_registry_entries([original], [updated])
+
+    assert len(entries) == 1
+    assert entries[0].content_hash == "new-hash"
+
+
+def test_write_mirror_registry_rejects_invalid_existing_registry(tmp_path: Path) -> None:
+    """Do not overwrite a malformed registry silently."""
+
+    path = mirror_registry_path(tmp_path)
+    path.parent.mkdir(parents=True)
+    path.write_text("{bad json", encoding="utf-8")
+
+    client = FakeClient({"/akn/gh/act/2008/769/eng@.xml": fixture_text("xml/simple_act.xml")})
+    entry = mirror_act(client, tmp_path, 2008, 769, tmp_path / "logs" / "mirror.jsonl")
+
+    with pytest.raises(RegistryError):
+        write_mirror_registry([entry], tmp_path)
 
 
 def test_default_log_path_uses_logs_folder(tmp_path: Path) -> None:

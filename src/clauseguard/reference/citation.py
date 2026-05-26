@@ -19,7 +19,7 @@ def parse_citation(text: str) -> Citation:
     qualifier = _extract_qualifier(raw)
     article_ref = _extract_article_ref(raw)
     section_ref = _extract_section_ref(raw)
-    is_constitution = _mentions_constitution(raw)
+    is_constitution = article_ref is not None or _mentions_constitution(raw)
     return Citation(
         raw=raw,
         act_number=_extract_act_number(raw),

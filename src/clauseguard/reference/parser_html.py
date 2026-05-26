@@ -76,7 +76,13 @@ def _parse_nodes(soup: BeautifulSoup) -> dict[str, TextNode]:
     blocks = section_blocks(soup)
     if not blocks:
         raise HtmlParseError("No confident section boundaries found in HTML.")
-    return {node.id: node for node in [parse_section_block(block) for block in blocks]}
+    nodes: dict[str, TextNode] = {}
+    for block in blocks:
+        node = parse_section_block(block)
+        if node.id in nodes:
+            raise HtmlParseError(f"Duplicate section id: {node.id}")
+        nodes[node.id] = node
+    return nodes
 
 
 def _build_document(

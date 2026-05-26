@@ -13,6 +13,9 @@ from clauseguard.reference.mirror import (
     default_log_path,
     mirror_act,
     mirror_constitution,
+)
+from clauseguard.reference.mirror_registry import (
+    constitution_registry_entry,
     write_mirror_registry,
 )
 
@@ -57,7 +60,8 @@ def run_mirror(
     """Run one mirror target."""
 
     if target == "constitution":
-        mirror_constitution(client, repo_root, log_path)
+        document = mirror_constitution(client, repo_root, log_path)
+        write_mirror_registry([constitution_registry_entry(document, repo_root)], repo_root)
     elif target == "act":
         mirror_one_act(client, repo_root, log_path, number, year)
     else:
@@ -86,7 +90,9 @@ def mirror_all(client: GhaliiClient, repo_root: Path, log_path: Path, dry_run: b
     if dry_run:
         print_dry_run(listings)
         return
+    constitution = mirror_constitution(client, repo_root, log_path)
     entries = [mirror_act(client, repo_root, item.year, item.act_number, log_path) for item in listings]
+    entries.append(constitution_registry_entry(constitution, repo_root))
     write_mirror_registry(entries, repo_root)
 
 

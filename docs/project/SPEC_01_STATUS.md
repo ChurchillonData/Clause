@@ -28,6 +28,7 @@ Validation.
 - Unit tests cover parsers, registry behavior, citation parsing, resolver behavior, client behavior, mirror orchestration, CLI helpers, and smoke checks.
 - Static checks are expected to pass with Ruff and mypy.
 - The local smoke checker should be run after mirroring reference data.
+- Audit hardening covers non-destructive registry updates, Constitution registry entries, duplicate node detection, safer HTML fallback parsing, bare Article citation resolution, and malformed XML date fallback.
 
 Commands.
 

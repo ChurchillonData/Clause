@@ -10,7 +10,7 @@ import typer
 
 from clauseguard.reference import mirror_cli
 from clauseguard.reference.legislation_index import ActListing
-from clauseguard.reference.schemas import RegistryEntry
+from clauseguard.reference.schemas import LegalDocument, RegistryEntry
 
 
 class FakeClient:
@@ -48,6 +48,24 @@ def entry(act_number: int, year: int) -> RegistryEntry:
     )
 
 
+def constitution_document() -> LegalDocument:
+    """Create a minimal Constitution document."""
+
+    return LegalDocument(
+        doc_type="constitution",
+        act_number=None,
+        year=1992,
+        title="Constitution of the Republic of Ghana, 1992",
+        short_title="Constitution",
+        status="in_force",
+        source_url="https://ghalii.org/akn/gh/act/1992/constitution",
+        content_hash="constitution-hash",
+        fetched_at="2026-05-26T00:00:00Z",
+        nodes={},
+        root_node_ids=[],
+    )
+
+
 def test_fetch_listings_reads_legislation_index() -> None:
     """Fetch and parse the legislation index."""
 
@@ -70,7 +88,12 @@ def test_mirror_all_dry_run_prints_without_mirroring(
     monkeypatch.setattr(mirror_cli, "fetch_listings", lambda client: listings)
     monkeypatch.setattr(mirror_cli, "mirror_act", lambda *args: calls.append("mirror"))
 
-    mirror_cli.mirror_all(FakeClient(), tmp_path, tmp_path / "mirror.jsonl", dry_run=True)  # type: ignore[arg-type]
+    mirror_cli.mirror_all(
+        FakeClient(),  # type: ignore[arg-type]
+        tmp_path,
+        tmp_path / "mirror.jsonl",
+        dry_run=True,
+    )
 
     assert "2012 Act 843: Data Protection Act, 2012" in capsys.readouterr().out
     assert calls == []
@@ -83,15 +106,30 @@ def test_run_mirror_constitution_target(
     """Run the Constitution target."""
 
     calls: list[Path] = []
+    written: list[list[RegistryEntry]] = []
     monkeypatch.setattr(
         mirror_cli,
         "mirror_constitution",
-        lambda client, repo_root, log_path: calls.append(repo_root),
+        lambda client, repo_root, log_path: calls.append(repo_root) or constitution_document(),
+    )
+    monkeypatch.setattr(
+        mirror_cli,
+        "write_mirror_registry",
+        lambda entries, repo_root: written.append(entries),
     )
 
-    mirror_cli.run_mirror(FakeClient(), tmp_path, tmp_path / "mirror.jsonl", "constitution", None, None, False)  # type: ignore[arg-type]
+    mirror_cli.run_mirror(
+        FakeClient(),  # type: ignore[arg-type]
+        tmp_path,
+        tmp_path / "mirror.jsonl",
+        "constitution",
+        None,
+        None,
+        False,
+    )
 
     assert calls == [tmp_path]
+    assert written[0][0].doc_type == "constitution"
 
 
 def test_run_mirror_act_target_writes_registry(
@@ -108,12 +146,51 @@ def test_run_mirror_act_target_writes_registry(
         return entry(args[3], args[2])
 
     monkeypatch.setattr(mirror_cli, "mirror_act", fake_mirror_act)
-    monkeypatch.setattr(mirror_cli, "write_mirror_registry", lambda entries, repo_root: written.append(entries))
+    monkeypatch.setattr(
+        mirror_cli,
+        "write_mirror_registry",
+        lambda entries, repo_root: written.append(entries),
+    )
 
-    mirror_cli.run_mirror(FakeClient(), tmp_path, tmp_path / "mirror.jsonl", "act", 843, 2012, False)  # type: ignore[arg-type]
+    mirror_cli.run_mirror(
+        FakeClient(),  # type: ignore[arg-type]
+        tmp_path,
+        tmp_path / "mirror.jsonl",
+        "act",
+        843,
+        2012,
+        False,
+    )
 
     assert mirrored == [(2012, 843)]
     assert written[0][0].act_number == 843
+
+
+def test_mirror_all_writes_constitution_and_acts(
+    monkeypatch: pytest.MonkeyPatch,
+    tmp_path: Path,
+) -> None:
+    """Mirror all discovered Acts plus the Constitution registry entry."""
+
+    listings = [ActListing(843, 2012, "Data Protection Act, 2012", "https://example.test/843")]
+    written: list[list[RegistryEntry]] = []
+    monkeypatch.setattr(mirror_cli, "fetch_listings", lambda client: listings)
+    monkeypatch.setattr(mirror_cli, "mirror_constitution", lambda *args: constitution_document())
+    monkeypatch.setattr(mirror_cli, "mirror_act", lambda *args: entry(843, 2012))
+    monkeypatch.setattr(
+        mirror_cli,
+        "write_mirror_registry",
+        lambda entries, repo_root: written.append(entries),
+    )
+
+    mirror_cli.mirror_all(
+        FakeClient(),  # type: ignore[arg-type]
+        tmp_path,
+        tmp_path / "mirror.jsonl",
+        dry_run=False,
+    )
+
+    assert [item.doc_type for item in written[0]] == ["act", "constitution"]
 
 
 def test_act_target_requires_number_and_year(tmp_path: Path) -> None:

@@ -23,6 +23,7 @@ Current modules.
 - `resolver.py`
 - `ghalii_client.py`
 - `mirror.py`
+- `mirror_registry.py`
 - `legislation_index.py`
 - `mirror_cli.py`
 - `refresh_cli.py`

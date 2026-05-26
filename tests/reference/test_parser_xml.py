@@ -5,6 +5,8 @@ from __future__ import annotations
 from datetime import datetime, timezone
 from pathlib import Path
 
+import pytest
+
 from clauseguard.reference.parser_xml import parse_xml_document, parse_xml_file
 
 FIXTURE_DIR = Path(__file__).parent / "fixtures" / "xml"
@@ -131,3 +133,51 @@ def test_parse_missing_year_and_act_number_falls_back_safely() -> None:
 
     assert document.year == 0
     assert document.act_number is None
+
+
+def test_invalid_xml_metadata_year_falls_back_to_url() -> None:
+    """Use the URL year when XML date metadata is malformed."""
+
+    xml = """
+    <akomaNtoso>
+      <act>
+        <meta>
+          <identification>
+            <FRBRWork><FRBRdate date="bad-date"/></FRBRWork>
+          </identification>
+        </meta>
+        <preface><p><shortTitle>Example Act</shortTitle></p></preface>
+        <body>
+          <section eId="sec_1"><num>1.</num><content><p>Text one.</p></content></section>
+        </body>
+      </act>
+    </akomaNtoso>
+    """
+
+    document = parse_xml_document(xml, "https://ghalii.org/akn/gh/act/2024/1", "act")
+
+    assert document.year == 2024
+
+
+def test_duplicate_xml_node_ids_fail_loudly() -> None:
+    """Reject duplicate XML node IDs instead of overwriting text."""
+
+    xml = """
+    <akomaNtoso>
+      <act>
+        <meta>
+          <identification>
+            <FRBRWork><FRBRdate date="2024-01-01"/></FRBRWork>
+          </identification>
+        </meta>
+        <preface><p><shortTitle>Example Act</shortTitle></p></preface>
+        <body>
+          <section eId="sec_1"><num>1.</num><content><p>Text one.</p></content></section>
+          <section eId="sec_1"><num>1.</num><content><p>Text two.</p></content></section>
+        </body>
+      </act>
+    </akomaNtoso>
+    """
+
+    with pytest.raises(ValueError, match="Duplicate XML node id"):
+        parse_xml_document(xml, "https://ghalii.org/akn/gh/act/2024/1", "act")

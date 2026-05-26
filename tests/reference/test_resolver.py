@@ -58,6 +58,15 @@ def test_resolve_constitution_article() -> None:
     assert node.text.startswith("The person shall be permitted")
 
 
+def test_resolve_bare_article_reference_to_constitution() -> None:
+    """Resolve Article citations without an explicit Constitution phrase."""
+
+    report = resolver().resolve_references(["Article 19(2)(d)"])
+
+    assert len(report.resolved) == 1
+    assert report.resolved[0].node is not None
+
+
 def test_bulk_resolution_groups_results() -> None:
     """Group resolved, unresolved, and ambiguous references."""
 

@@ -92,3 +92,49 @@ def test_html_title_falls_back_to_title_tag() -> None:
     document = parse_html_document(html, "https://example.test/act/2026/1001", "act")
 
     assert document.title == "Fallback Title Act"
+
+
+def test_html_section_detection_accepts_common_class_and_id_variants() -> None:
+    """Parse common section markers used by web HTML."""
+
+    html = """
+    <html><body>
+      <h1>Example Act</h1>
+      <div class="section current"><h2>Section 1. First</h2><p>Text one.</p></div>
+      <div id="sec_2"><h2>Section 2. Second</h2><p>Text two.</p></div>
+    </body></html>
+    """
+
+    document = parse_html_document(html, "https://ghalii.org/akn/gh/act/2024/1", "act")
+
+    assert list(document.nodes) == ["s_1", "sec_2"]
+
+
+def test_html_heading_without_number_does_not_crash() -> None:
+    """Use an unnumbered fallback when a section heading has no number."""
+
+    html = """
+    <html><body>
+      <h1>Example Act</h1>
+      <div class="section"><h2>Section</h2><p>Text one.</p></div>
+    </body></html>
+    """
+
+    document = parse_html_document(html, "https://ghalii.org/akn/gh/act/2024/1", "act")
+
+    assert document.nodes["s_unnumbered"].number == "unnumbered"
+
+
+def test_duplicate_html_section_ids_fail_loudly() -> None:
+    """Reject duplicate HTML section IDs instead of overwriting text."""
+
+    html = """
+    <html><body>
+      <h1>Example Act</h1>
+      <div id="sec_1"><h2>Section 1. First</h2><p>Text one.</p></div>
+      <div id="sec_1"><h2>Section 1. Duplicate</h2><p>Text two.</p></div>
+    </body></html>
+    """
+
+    with pytest.raises(HtmlParseError, match="Duplicate section id"):
+        parse_html_document(html, "https://ghalii.org/akn/gh/act/2024/1", "act")

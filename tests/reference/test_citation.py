@@ -42,6 +42,15 @@ def test_parse_constitution_article() -> None:
     assert citation.article_ref == "19(2)(d)"
 
 
+def test_article_reference_defaults_to_constitution() -> None:
+    """Treat bare article references as Constitution citations."""
+
+    citation = parse_citation("Article 19(2)(d)")
+
+    assert citation.is_constitution
+    assert citation.article_ref == "19(2)(d)"
+
+
 def test_node_id_from_nested_reference() -> None:
     """Convert nested legal references to node IDs."""
 

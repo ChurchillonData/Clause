@@ -9,9 +9,9 @@ from clauseguard.reference.ghalii_client import GhaliiClient, GhaliiClientError
 from clauseguard.reference.mirror_log import log_event
 from clauseguard.reference.mirror_markdown import write_node_markdown
 from clauseguard.reference.mirror_paths import act_dir, constitution_dir
+from clauseguard.reference.mirror_registry import registry_entry
 from clauseguard.reference.parser_html import parse_html_document
 from clauseguard.reference.parser_xml import parse_xml_document
-from clauseguard.reference.registry import write_registry
 from clauseguard.reference.schemas import LegalDocument, RegistryEntry
 
 CONSTITUTION_XML_URL = "/akn/gh/act/1992/constitution/eng@.xml"
@@ -95,28 +95,6 @@ def write_document(document: LegalDocument, output_dir: Path, node_dir: str, log
     parsed_path.write_text(document.model_dump_json(indent=2) + "\n", encoding="utf-8")
     write_node_markdown(document, output_dir / node_dir)
     log_event(log_path, "write", path=str(parsed_path), title=document.title)
-
-
-def registry_entry(document: LegalDocument, output_dir: Path) -> RegistryEntry:
-    """Create a registry entry for one mirrored Act."""
-
-    return RegistryEntry(
-        doc_type=document.doc_type,
-        act_number=document.act_number,
-        year=document.year,
-        title=document.title,
-        short_title=document.short_title,
-        status=document.status,
-        file_path=str(output_dir / "parsed.json"),
-        content_hash=document.content_hash,
-        fetched_at=document.fetched_at,
-    )
-
-
-def write_mirror_registry(entries: list[RegistryEntry], repo_root: Path) -> None:
-    """Write the Acts registry for mirrored documents."""
-
-    write_registry(entries, repo_root / "docs" / "reference" / "ghana_acts" / "registry.json")
 
 
 def default_log_path(repo_root: Path) -> Path:

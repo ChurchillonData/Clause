@@ -24,9 +24,14 @@ def looks_like_section(element: Tag) -> bool:
     """Return whether an element appears to be a section boundary."""
 
     element_id = str(element.get("id", "")).lower()
-    classes = " ".join(class_values(element))
     data_name = str(element.get("data-name", "")).lower()
-    return any(value in {"section", "sec"} for value in [classes, data_name, element_id[:7]])
+    return any(
+        [
+            any(value in {"section", "sec"} for value in class_values(element)),
+            data_name in {"section", "sec"},
+            element_id.startswith(("section", "sec_")),
+        ]
+    )
 
 
 def class_values(element: Tag) -> list[str]:
@@ -61,7 +66,10 @@ def section_number(element: Tag) -> str:
     if explicit:
         return clean_number(str(explicit))
     heading = first_heading_text(element)
-    return clean_number(heading.split()[1]) if heading.lower().startswith("section ") else "unnumbered"
+    parts = heading.split()
+    if len(parts) >= 2 and parts[0].casefold() == "section":
+        return clean_number(parts[1])
+    return "unnumbered"
 
 
 def section_id(element: Tag, number: str) -> str:
