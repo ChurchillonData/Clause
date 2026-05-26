@@ -1,0 +1,28 @@
+[
+  {
+    "doc_type": "act",
+    "act_number": 769,
+    "year": 2008,
+    "title": "National Communications Authority Act, 2008",
+    "short_title": "NCA Act",
+    "status": "in_force",
+    "file_path": "docs/reference/ghana_acts/act_0769_nca_2008/parsed.json",
+    "content_hash": "hash-769",
+    "fetched_at": "2026-05-26T00:00:00Z",
+    "parse_failed": false,
+    "parse_error": null
+  },
+  {
+    "doc_type": "act",
+    "act_number": 843,
+    "year": 2012,
+    "title": "Data Protection Act, 2012",
+    "short_title": "DPA",
+    "status": "in_force",
+    "file_path": "docs/reference/ghana_acts/act_0843_data_protection_2012/parsed.json",
+    "content_hash": "hash-843",
+    "fetched_at": "2026-05-26T00:00:00Z",
+    "parse_failed": false,
+    "parse_error": null
+  }
+]
